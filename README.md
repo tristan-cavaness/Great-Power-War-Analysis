@@ -1,10 +1,9 @@
-# Mapping Food Accessibility Gaps in Syracuse's North Side
-
+# Mapping Food Accessibility Gaps in Syracuse
 ## Overview
 
 This project examines food accessibility challenges in Syracuse, New York, with a focus on historically underserved neighborhoods. Using census tract-level demographic data, grocery store locations, and street network analysis, the project maps the distance residents must travel to reach full-service grocery stores (on foot and by public transit) and identifies areas where access falls short.
 
-The closure of the Save A Lot at 500 Butternut Street in early 2026 highlights a problem many Northside residents already knew: healthy, affordable food is hard to reach without a car. This analysis aims to quantify that gap and visualize where it is most severe.
+The closure of the Save A Lot at 500 Butternut Street in early 2026 highlights a problem many residents already knew: healthy, affordable food is hard to reach without a car. This analysis aims to quantify that gap and visualize where it is most severe.
 
 ## Data Sources
 
