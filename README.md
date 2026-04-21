@@ -1,4 +1,4 @@
-# Three Great Powers: A Macro-Strategic Analysis of War, 1200–1985
+# Three Great Powers: A Macro-Level Analysis of War Outcomes, 1200–1985
 
 ## Overview
 
