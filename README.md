@@ -1,4 +1,4 @@
-# Three Great Powers: A Macro-Level Analysis of War Outcomes, 1200–1985
+# Three Great Powers: A Macro-Level Analysis of Great Power Wars, 1200–1985
 
 ## Overview
 
@@ -27,7 +27,7 @@ The war-level records (names, dates, opponents, theaters, posture, outcomes) wer
 
 The following variables are derived from the source data rather than collected directly:
 
-- **GDP ratio** — Power's GDP per capita divided by opponent's GDP per capita
+- **GDP ratio** — Power's total GDP divided by opponent's total GDP (GDP per capita × population for each side)
 - **Population ratio** — Power's population divided by opponent's population
 - **CINC ratio** — Power's CINC score divided by opponent's (post-1816 only)
 - **Land area ratio** — Power's territorial area divided by opponent's area, from Cliopatria
@@ -50,15 +50,15 @@ A conflict is included if it meets **all** of the following:
 
 - Purely internal conflicts (civil wars, domestic rebellions without a foreign primary enemy)
 - Token coalition participation where the power was not a principal decision-maker
-- Purely demonstrative deployments with no organized resistance (e.g., France's intervention in the Belgian Revolution — 50,000 troops deployed, no combat)
 - Naval blockades or diplomatic coercion without combat-ready deployment
 
 ### Borderline Guidance
 
-- **Brief wars and single decisive engagements** (e.g., Waterloo Campaign, Suez Crisis): included. Duration does not determine strategic significance.
-- **Gunboat diplomacy with territorial acquisition** (e.g., Franco-Siamese War): included. Asymmetric outcomes are data, not noise.
-- **Opponent capitulated before major combat** (e.g., Conquest of Corsica): included. The capitulation is the outcome.
-- **Colonial conquest against organized non-state opponents** (e.g., Anglo-Zulu War, Conquest of the Aztec Empire): included if organized resistance was present.
+- **Brief wars and single decisive engagements:** included. Duration does not determine strategic significance.
+- **Gunboat diplomacy with territorial acquisition:** included. Asymmetric outcomes are data, not noise.
+- **Opponent capitulated before major combat:** included. The capitulation is the outcome.
+- **Colonial conquest against organized non-state opponents:** included if organized resistance was present.
+- **Deployment with intent to fight, even if combat was minimal or the opponent withdrew:** included. The deployment and willingness to engage meets the threshold.
 
 ## Variables
 
@@ -69,17 +69,16 @@ Each observation (war) includes the following:
 | War name | Name of the conflict | Wikipedia / manual |
 | Start year, end year | Temporal bounds | Wikipedia / manual |
 | Duration | Length in years | Computed |
-| Era / dynasty | Political era of the power (e.g., Valois, Habsburg, Victorian) | Manual |
 | War outcome | Won, Lost, or Indecisive (from the power's perspective) | Wikipedia / manual |
 | Primary enemy | Main opponent | Wikipedia / manual |
 | Enemy type | European or Colonial/Eastern | Manual |
 | Geographic theater | Region of conflict (e.g., Iberian Peninsula, South Asia) | Manual |
 | Posture | Offensive or Defensive | Manual |
 | Home / Away | Whether fought in or near the power's homeland | Manual |
-| GDP per capita (both sides) | In 1990 International Geary-Khamis dollars | Maddison |
+| GDP per capita (both sides) | In 2011 US dollars (PPP) | Maddison Project Database 2023 |
 | Population (both sides) | Estimated population | Maddison |
 | CINC (both sides) | Composite Index of National Capability (post-1816) | COW |
-| GDP ratio | Power / Opponent | Computed |
+| GDP ratio | Power total GDP / Opponent total GDP | Computed |
 | Population ratio | Power / Opponent | Computed |
 | CINC ratio | Power / Opponent (post-1816) | Computed |
 | Land area ratio | Power area / Opponent area in km² | Cliopatria |
