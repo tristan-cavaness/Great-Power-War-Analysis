@@ -42,14 +42,14 @@ The following variables are derived from the source data rather than collected d
 A conflict is included if it meets **all** of the following:
 
 1. **External conflict.** The war is directed against a foreign opponent — another state, kingdom, empire, or organized external entity. Internal civil wars and domestic rebellions are excluded.
-2. **Primary belligerent or major contributor.** The great power played a leading or principal military role, not a token coalition contribution.
+2. **Significant military contributor.** The great power contributed roughly a quarter or more of the total allied or coalition fighting force. Minor or token contributions to multinational coalitions are excluded, even if the power was formally a belligerent.
 3. **Organized military resistance.** The opponent fielded an organized armed force capable of and willing to resist — whether a standing army, tribal military confederation, guerrilla force, or naval fleet.
 4. **Deployment of organized military force.** The great power deployed regular military forces with the intent or willingness to engage in combat, including cases where the opponent capitulated before significant fighting occurred.
 
 ### Excluded
 
 - Purely internal conflicts (civil wars, domestic rebellions without a foreign primary enemy)
-- Token coalition participation where the power was not a principal decision-maker
+- Token coalition participation where the power contributed less than roughly a quarter of the total fighting force
 - Naval blockades or diplomatic coercion without combat-ready deployment
 
 ### Borderline Guidance
