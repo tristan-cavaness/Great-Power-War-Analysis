@@ -1,24 +1,24 @@
-# Great Power War Analysis, 1200–1985
+# Great Power War Analysis, 1200-1989
 
 ## Overview
 
-This project analyzes 411 wars fought by eight great powers — France, England/UK, Spain, Portugal, Denmark, Russia, Ottoman Empire/Turkey, and Austria — over roughly 800 years to identify what socio-economic conditions best predict war outcomes.
+This project analyzes 411 wars fought by eight great powers France, England/UK, Spain, Portugal, Denmark, Russia, Ottoman Empire/Turkey, and Austria over roughly 800 years to identify what socio-economic conditions best predict war outcomes.
 
 ## At a Glance
 
 Some highlights from 800 years of data:
 
-**Russia wins the most.** With a 76% win rate across 45 decisive wars, Russia has the best track record of any European great power. But France has fought nearly twice as many wars (86 decisive) — making it everyone else's most common enemy. France is the #1 opponent for England, Spain, and Austria. Russia and the Ottoman Empire have their own mutual rivalry spanning 8–9 wars over five centuries.
+**Russia wins the most.** With a 76% win rate across 45 decisive wars, Russia has the best track record of any European great power. But France has fought nearly twice as many wars (86 decisive)  making it everyone else's most common enemy. France is the #1 opponent for England, Spain, and Austria. Russia and the Ottoman Empire have their own mutual rivalry spanning 8â€“9 wars over five centuries.
 
-**Spain holds the longest win streak** at 16 consecutive victories — almost certainly driven by its colonial conquests in the Americas. France comes in second at 13, England at 12. Austria's best streak is just 5 wins, which partly explains its 46% win rate — the lowest among the eight powers along with Denmark at 44%.
+**Spain holds the longest win streak** at 16 consecutive victories  almost certainly driven by its colonial conquests in the Americas. France comes in second at 13, England at 12. Austria's best streak is just 5 wins, which partly explains its 46% win rate  the lowest among the eight powers along with Denmark at 44%.
 
-**The 20th century broke everything.** Win rates dropped to 49% — essentially a coin flip. The era of reliable colonial conquest was over, and peer-level conflicts between industrialized powers are much less predictable.
+**The 20th century broke everything.** Win rates dropped to 49%  essentially a coin flip. The era of reliable colonial conquest was over, and peer-level conflicts between industrialized powers are much less predictable.
 
 **War duration barely affects the outcome.** Whether a war lasts 1 year or 25, the aggressor's win rate stays between 56% and 67%. Only wars lasting over 50 years show a dramatic drop (33%), but there are only 3 of those in the dataset.
 
-**Offense dominates — but only against weaker opponents.** Offensive wars against colonial/eastern opponents win 84% of the time. Defensive wars against those same opponents? Just 44%. Against European peers, the offensive advantage narrows to 63% vs 50% and is not statistically significant.
+**Offense dominates  but only against weaker opponents.** Offensive wars against colonial/eastern opponents win 84% of the time. Defensive wars against those same opponents? Just 44%. Against European peers, the offensive advantage narrows to 63% vs 50% and is not statistically significant.
 
-**The France–Spain rivalry** is the most fought matchup in the dataset: 16 wars from the English side against France, 16 from Spain against France, and 15 from the French side against Spain. Europe's western triangle was locked in near-permanent conflict for centuries.
+**The France-Spain rivalry** is the most fought matchup in the dataset: 16 wars from the English side against France, 16 from Spain against France, and 15 from the French side against Spain. Europe's western triangle was locked in near-permanent conflict for centuries.
 
 ## Data Sources
 
@@ -51,7 +51,7 @@ Population estimates
 
 Citation:
 
-Bolt, Jutta and Jan Luiten van Zanden (2024), �Maddison style estimates of the evolution of the world economy: A new 2023 update�, Journal of Economic Surveys.
+Bolt, Jutta and Jan Luiten van Zanden (2024), “Maddison style estimates of the evolution of the world economy: A new 2023 update”, Journal of Economic Surveys.
 
 
 - HYDE 3.3 / Our World in Data
@@ -67,9 +67,9 @@ Grazing land
 
 Citation:
 
-Klein Goldewijk, K., Beusen, A., Doelman, J., and Stehfest, E. (2017), �Anthropogenic land use estimates for the Holocene � HYDE 3.2�, Earth System Science Data, 9, 927�953.
+Klein Goldewijk, K., Beusen, A., Doelman, J., and Stehfest, E. (2017), “Anthropogenic land use estimates for the Holocene – HYDE 3.2”, Earth System Science Data, 9, 927–953.
 
-Utrecht University / PBL Netherlands Environmental Assessment Agency � History Database of the Global Environment (HYDE v3.3, 2023).
+Utrecht University / PBL Netherlands Environmental Assessment Agency — History Database of the Global Environment (HYDE v3.3, 2023).
 
 Processed and distributed through Our World in Data.
 
@@ -82,7 +82,7 @@ All ratio variables (GDP per capita ratio, population ratio, built-up area ratio
 
 1. **Symmetry.** A raw ratio of 2.0 (twice as rich) and 0.5 (half as rich) represent the same magnitude of difference in opposite directions, but on a linear scale they are not symmetric around 1. Log transformation fixes this: log(2.0) = +0.69 and log(0.5) = -0.69 are perfectly symmetric around zero.
 
-2. **Skew compression.** Ratio variables are heavily right-skewed. A colonial power might have a GDP/cap ratio of 15x against a pre-industrial opponent, while European peer wars cluster around 0.5–2.0x. Without log transformation, the regression would be dominated by a few extreme colonial ratios. Log transformation compresses the extremes to get similar weight going from 1x to 2x and 3x and 6x.
+2. **Skew compression.** Ratio variables are heavily right-skewed. A colonial power might have a GDP/cap ratio of 15x against a pre-industrial opponent, while European peer wars cluster around 0.5â€“2.0x. Without log transformation, the regression would be dominated by a few extreme colonial ratios. Log transformation compresses the extremes to get similar weight going from 1x to 2x and 3x and 6x.
 
 3. **Proportional interpretation.** With log-transformed ratios, the regression coefficient measures the effect of a proportional change in advantage (e.g. doubling your GDP/cap ratio) rather than an absolute change (e.g. adding $500 to your GDP/cap advantage). This makes more sense for comparing wars across 800 years where absolute values change dramatically but proportional advantages does not. 
 
@@ -127,9 +127,9 @@ Missing Maddison data is interpolated between benchmark years and backfilled up 
 
 ## Results
 
-### Individual Predictor Screening (α = 0.10)
+### Individual Predictor Screening
 
-| Variable | Coefficient | p-value | R² |
+| Variable | Coefficient | p-value | R^² |
 | --- | --- | --- | --- |
 | Offensive posture | +1.05 | < 0.001 | 0.045 |
 | Total GDP ratio (log) | +0.19 | 0.002 | 0.024 |
@@ -146,15 +146,15 @@ Distance was not statistically ignificant.
 
 ### Core Model
 
-The three-variable model (offensive posture + GDP/cap ratio + home advantage) explains 4.4% of variance (pseudo R-squared). Offensive posture is the dominant predictor (+25 percentage points, p < 0.001). Adding population ratio improves the model significantly (ΔR² = 0.015, p = 0.013).
+The three-variable model (offensive posture + GDP/cap ratio + home advantage) explains 4.4% of variance (pseudo R-squared). Offensive posture is the dominant predictor (+25 percentage points, p < 0.001). Adding population ratio improves the model significantly (R^² = 0.015, p = 0.013).
 
 ### Colonial vs European Wars
 
-Colonial wars: R² = 12.6%, with offensive posture highly significant (p < 0.001), signaling the innate advantage in attacking a distant weaker power in a war of choice. European wars: R² = 1.7%, with no variable reaching significance. In peer conflicts, macro socio-economic advantages explain almost nothing — strategy, diplomacy, alliances, and battlefield tactics carry the most weight.
+Colonial wars: R^² = 12.6%, with offensive posture highly significant (p < 0.001), signaling the innate advantage in attacking a distant weaker power in a war of choice. European wars: R^² = 1.7%, with no variable reaching significance. In peer conflicts, macro socio-economic advantages explain almost nothing  strategy, diplomacy, alliances, and battlefield tactics carry the most weight.
 
 ### Home Advantage Confound
 
-Home advantage is negative when tested alone (p = 0.022) but positive in the combined model. Colonial wars — which have high win rates — are almost always fought away from home, creating a confound that reverses once you control for offensive posture.
+Home advantage is negative when tested alone (p = 0.022) but positive in the combined model. Colonial wars  which have high win rates  are almost always fought away from home, creating a confound that reverses once you control for offensive posture.
 
 ## Limitations
 
@@ -162,7 +162,7 @@ Home advantage is negative when tested alone (p = 0.022) but positive in the com
 - 12 opponent entities have no modern country equivalent and are excluded from the analysis, most others were assigned a logical modern day equivalent entity for data analysis purposes
 - Coalition wars are attributed to the primary belligerent, which may understate aggregate opposition
 - War outcomes are coded as discrete categories which may oversimplify often ambiguous results
-- The model explains 4.4% of variance — most of what determines war outcomes is not easily estimated by macro-level physical advantages
+- The model explains 4.4% of variance  most of what determines war outcomes is not easily estimated by macro-level physical advantages
 - War data was compiled from Wikipedia and may contain computing and data entry errors
 
 ## Requirements
