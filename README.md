@@ -8,7 +8,7 @@ This project analyzes 411 wars fought by eight great powers France, England/UK, 
 
 Some highlights from 800 years of data:
 
-**Russia wins the most.** With a 76% win rate across 45 decisive wars, Russia has the best track record of any European great power. But France has fought nearly twice as many wars (86 decisive)  making it everyone else's most common enemy. France is the #1 opponent for England, Spain, and Austria. Russia and the Ottoman Empire have their own mutual rivalry spanning 8â€“9 wars over five centuries.
+**Russia wins the most.** With a 76% win rate across 45 decisive wars, Russia has the best track record of any European great power. But France has fought nearly twice as many wars (86 decisive)  making it everyone else's most common enemy. France is the #1 opponent for England, Spain, and Austria. Russia and the Ottoman Empire have their own mutual rivalry spanning 8-9 wars over five centuries.
 
 **Spain holds the longest win streak** at 16 consecutive victories  almost certainly driven by its colonial conquests in the Americas. France comes in second at 13, England at 12. Austria's best streak is just 5 wins, which partly explains its 46% win rate  the lowest among the eight powers along with Denmark at 44%.
 
@@ -82,7 +82,7 @@ All ratio variables (GDP per capita ratio, population ratio, built-up area ratio
 
 1. **Symmetry.** A raw ratio of 2.0 (twice as rich) and 0.5 (half as rich) represent the same magnitude of difference in opposite directions, but on a linear scale they are not symmetric around 1. Log transformation fixes this: log(2.0) = +0.69 and log(0.5) = -0.69 are perfectly symmetric around zero.
 
-2. **Skew compression.** Ratio variables are heavily right-skewed. A colonial power might have a GDP/cap ratio of 15x against a pre-industrial opponent, while European peer wars cluster around 0.5â€“2.0x. Without log transformation, the regression would be dominated by a few extreme colonial ratios. Log transformation compresses the extremes to get similar weight going from 1x to 2x and 3x and 6x.
+2. **Skew compression.** Ratio variables are heavily right-skewed. A colonial power might have a GDP/cap ratio of 15x against a pre-industrial opponent, while European peer wars cluster around 0.5-2.0x. Without log transformation, the regression would be dominated by a few extreme colonial ratios. Log transformation compresses the extremes to get similar weight going from 1x to 2x and 3x and 6x.
 
 3. **Proportional interpretation.** With log-transformed ratios, the regression coefficient measures the effect of a proportional change in advantage (e.g. doubling your GDP/cap ratio) rather than an absolute change (e.g. adding $500 to your GDP/cap advantage). This makes more sense for comparing wars across 800 years where absolute values change dramatically but proportional advantages does not. 
 
