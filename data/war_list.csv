@@ -1,0 +1,412 @@
+power,war_name,start_year,end_year,duration,outcome,primary_enemy,enemy_modern_equiv,enemy_type,posture,home_away,self_capital,enemy_capital,distance_km
+France,French Invasion of Normandy,1202,1204,2,Won,Kingdom of England,United Kingdom,European,Offensive,Away,Paris,London,343
+France,Albigensian Crusade,1209,1229,20,Won,County of Toulouse,France,European,Offensive,Away,Paris,Toulouse,589
+France,Anglo-French War of 1213,1213,1214,1,Won,Kingdom of England,United Kingdom,European,Defensive,Home,Paris,London,343
+France,First Barons' War,1216,1217,1,Lost,Rebel English barons,United Kingdom,European,Offensive,Away,Paris,London,343
+France,Fifth Crusade,1217,1221,4,Lost,Ayyubid Sultanate,Egypt,Colonial / Eastern,Offensive,Away,Paris,Cairo,3210
+France,Seventh Crusade,1248,1254,6,Lost,Ayyubid Sultanate,Egypt,Colonial / Eastern,Offensive,Away,Paris,Cairo,3210
+France,Eighth Crusade,1270,1270,1,Lost,Hafsid Kingdom,Tunisia,Colonial / Eastern,Offensive,Away,Paris,Tunis,1482
+France,War of the Sicilian Vespers,1282,1302,20,Lost,Crown of Aragon,Spain,European,Offensive,Away,Paris,Zaragoza,840
+France,Gascon War,1294,1303,9,Won,Kingdom of England,United Kingdom,European,Offensive,Away,Paris,London,343
+France,Franco-Flemish War,1297,1305,8,Won,County of Flanders,Belgium,European,Defensive,Home,Paris,Ghent,262
+France,War of Saint-Sardos,1324,1324,1,Won,Kingdom of England,United Kingdom,European,Offensive,Away,Paris,London,343
+France,Hundred Years' War,1337,1453,116,Won,Kingdom of England,United Kingdom,European,Defensive,Home,Paris,London,343
+France,Crusade of Nicopolis,1396,1396,1,Lost,Ottoman Empire,Turkey,Colonial / Eastern,Offensive,Away,Paris,Edirne,2044
+France,Burgundian Wars,1474,1477,3,Won,Burgundian State,Belgium,European,Offensive,Away,Paris,Brussels,263
+France,War of the Castilian Succession,1475,1479,4,Lost,Spain,Spain,European,Offensive,Away,Paris,Valladolid,973
+France,War of the Burgundian Succession,1477,1482,5,Won,Habsburg Burgundy,Belgium,European,Offensive,Away,Paris,Brussels,263
+France,First Italian War,1494,1498,4,Lost,Spain,Spain,European,Offensive,Away,Paris,Valladolid,973
+France,Second Italian War,1499,1504,5,Lost,Spain,Spain,European,Offensive,Away,Paris,Valladolid,973
+France,War of the League of Cambrai,1508,1516,8,Won,Venice,Italy,European,Offensive,Away,Paris,Venice,844
+France,Italian War of 1521,1521,1526,5,Lost,Spain,Spain,European,Offensive,Away,Paris,Valladolid,973
+France,War of the League of Cognac,1526,1530,4,Lost,Spain,Spain,European,Offensive,Away,Paris,Valladolid,973
+France,Italian War of 1536,1536,1538,2,Indecisive,Spain,Spain,European,Offensive,Away,Paris,Valladolid,973
+France,Italian War of 1542,1542,1546,4,Indecisive,Spain,Spain,European,Offensive,Away,Paris,London,343
+France,Rough Wooing,1547,1551,4,Won,Kingdom of England,United Kingdom,European,Defensive,Away,Paris,London,343
+France,Italian War of 1551,1551,1559,8,Lost,Spain,Spain,European,Offensive,Away,Paris,Valladolid,973
+France,French-Iroquois Wars,1609,1701,92,Indecisive,Iroquois Confederacy,,Colonial / Eastern,Offensive,Away,Paris,Onondaga,5831
+France,Anglo-French War of 1627,1627,1629,2,Won,Kingdom of England,United Kingdom,European,Defensive,Home,Paris,London,343
+France,War of the Mantuan Succession,1628,1631,3,Won,Spain,Spain,European,Offensive,Away,Paris,Madrid,1052
+France,Thirty Years' War,1635,1648,13,Won,Spain,Spain,European,Offensive,Away,Paris,Madrid,1052
+France,Franco-Spanish War,1635,1659,24,Won,Spain,Spain,European,Offensive,Away,Paris,Madrid,1052
+France,War of Devolution,1667,1668,1,Won,Spain,Spain,European,Offensive,Away,Paris,Madrid,1052
+France,Franco-Dutch War,1672,1678,6,Won,Spain,Spain,European,Offensive,Away,Paris,Madrid,1052
+France,Franco-Algerian War,1681,1688,7,Indecisive,Regency of Algiers,Algeria,Colonial / Eastern,Offensive,Away,Paris,Algiers,1347
+France,War of the Reunions,1683,1684,1,Won,Spain,Spain,European,Offensive,Away,Paris,Madrid,1052
+France,War of the League of Augsburg,1688,1697,9,Indecisive,England,United Kingdom,European,Offensive,Away,Paris,London,343
+France,War of the Spanish Succession,1701,1714,13,Indecisive,England,United Kingdom,European,Defensive,Home,Paris,London,343
+France,War of the Quadruple Alliance,1718,1720,2,Won,Spain,Spain,European,Offensive,Away,Paris,Madrid,1052
+France,War of the Polish Succession,1733,1738,5,Won,Austria,Austria,European,Offensive,Away,Paris,Vienna,1033
+France,War of the Austrian Succession,1740,1748,8,Indecisive,Great Britain,United Kingdom,European,Offensive,Away,Paris,London,343
+France,Seven Years' War,1754,1763,9,Lost,Great Britain,United Kingdom,European,Offensive,Away,Paris,London,343
+France,Conquest of Corsica,1768,1769,1,Won,Corsican Republic,Italy,European,Offensive,Away,Paris,Corte,899
+France,American Revolutionary War,1778,1783,5,Won,Kingdom of Great Britain,United Kingdom,European,Offensive,Away,Paris,London,343
+France,War of the First Coalition,1792,1797,5,Won,Great Britain,United Kingdom,European,Defensive,Home,Paris,London,343
+France,Italian Campaign of 1796,1796,1797,1,Won,Habsburg Austria,Austria,European,Offensive,Away,Paris,Vienna,1033
+France,French invasion of Switzerland,1798,1798,1,Won,Old Swiss Confederacy,Switzerland,European,Offensive,Away,Paris,Bern,435
+France,French Campaign in Egypt,1798,1801,3,Lost,Ottoman Empire,Turkey,Colonial / Eastern,Offensive,Away,Paris,London,343
+France,War of the Second Coalition,1799,1802,3,Won,Austria,Austria,European,Defensive,Away,Paris,Vienna,1033
+France,Haitian Revolution,1802,1803,1,Lost,Haitian rebels,Haiti,Colonial / Eastern,Offensive,Away,Paris,Port-au-Prince,7356
+France,Caribbean Campaign,1803,1810,7,Lost,Great Britain,United Kingdom,European,Defensive,Away,Paris,London,343
+France,War of the Third Coalition,1805,1805,1,Won,Austria,Austria,European,Offensive,Away,Paris,London,343
+France,War of the Fourth Coalition,1806,1807,1,Won,Prussia,Germany,European,Offensive,Away,Paris,Berlin,877
+France,Peninsular War,1808,1814,6,Lost,Great Britain,United Kingdom,European,Offensive,Away,Paris,London,343
+France,War of the Fifth Coalition,1809,1809,1,Won,Austrian Empire,Austria,European,Defensive,Away,Paris,Vienna,1033
+France,Mauritius campaign,1810,1810,1,Lost,Great Britain,United Kingdom,European,Defensive,Away,Paris,London,343
+France,French invasion of Russia,1812,1812,1,Lost,Russian Empire,Russia,European,Offensive,Away,Paris,St. Petersburg,2163
+France,War of the Sixth Coalition,1813,1814,1,Lost,Prussia,Germany,European,Defensive,Home,Paris,London,343
+France,Waterloo Campaign,1815,1815,1,Lost,Prussia,Germany,European,Offensive,Away,Paris,London,343
+France,French intervention in Spain,1823,1823,1,Won,Spanish liberal Cortes,Spain,European,Offensive,Away,Paris,Madrid,1052
+France,French conquest of Algeria,1830,1847,17,Won,Emirate of Mascara,Algeria,Colonial / Eastern,Offensive,Away,Paris,Mascara,1507
+France,Belgian Revolution,1831,1832,1,Won,Netherlands,Netherlands,European,Offensive,Away,Paris,The Hague,383
+France,First Franco-Moroccan War,1844,1844,1,Won,Morocco,Morocco,Colonial / Eastern,Offensive,Away,Paris,Fez,1757
+France,French-Tahitian War,1844,1847,3,Won,Kingdom of Tahiti,,Colonial / Eastern,Offensive,Away,Paris,Papeete,15710
+France,Kabyle Campaigns,1851,1857,6,Won,Kabyle tribal forces,Algeria,Colonial / Eastern,Offensive,Away,Paris,Algiers,1347
+France,Crimean War,1853,1856,3,Won,Russian Empire,Russia,European,Offensive,Away,Paris,St. Petersburg,2163
+France,Franco-Trarzan War,1855,1858,3,Won,Emirate of Trarza,Mauritania,Colonial / Eastern,Offensive,Away,Paris,Boutilimit,3805
+France,Second Opium War,1856,1860,4,Won,China,China,Colonial / Eastern,Offensive,Away,Paris,Beijing,8216
+France,Franco-Toucouleur Wars,1857,1887,30,Won,Toucouleur Empire,Mali,Colonial / Eastern,Offensive,Away,Paris,Ségou,4006
+France,Cochinchina Campaign,1858,1862,4,Won,Vietnam,Vietnam,Colonial / Eastern,Offensive,Away,Paris,Huế,9705
+France,Franco-Austrian War,1859,1859,1,Won,Austrian Empire,Austria,European,Offensive,Away,Paris,Vienna,1033
+France,French intervention in Mexico,1862,1867,5,Lost,Mexican Republicans,Mexico,Colonial / Eastern,Offensive,Away,Paris,Mexico City,9195
+France,Franco-Prussian War,1870,1871,1,Lost,Prussia,Germany,European,Defensive,Home,Paris,Berlin,877
+France,Mokrani Revolt,1871,1872,1,Won,Kabyle rebels,Algeria,Colonial / Eastern,Defensive,Away,Paris,Algiers,1347
+France,Conquest of Tunisia,1881,1881,1,Won,Beylik of Tunis,Tunisia,Colonial / Eastern,Offensive,Away,Paris,Tunis,1482
+France,Tonkin Campaign,1883,1886,3,Won,Vietnam,Vietnam,Colonial / Eastern,Offensive,Away,Paris,Huế,9705
+France,First Franco-Hova War,1883,1886,3,Won,Merina Kingdom (Madagascar),Madagascar,Colonial / Eastern,Offensive,Away,Paris,Antananarivo,8759
+France,Franco-Mandingo Wars,1883,1898,15,Won,Wassoulou Empire,Guinea,Colonial / Eastern,Offensive,Away,Paris,Bissandougou,4453
+France,Sino-French War,1884,1885,1,Won,China,China,Colonial / Eastern,Offensive,Away,Paris,Beijing,8216
+France,Franco-Dahomean Wars,1892,1894,2,Won,Kingdom of Dahomey,Benin,Colonial / Eastern,Offensive,Away,Paris,Abomey,4634
+France,Franco-Siamese War,1893,1893,1,Won,Kingdom of Siam,Thailand,Colonial / Eastern,Offensive,Away,Paris,Bangkok,9442
+France,Conquest of Madagascar,1894,1896,2,Won,Merina Kingdom (Madagascar),Madagascar,Colonial / Eastern,Offensive,Away,Paris,Antananarivo,8759
+France,Voulet-Chanoine Expedition,1898,1900,2,Won,Sultanate of Damagaram,Niger,Colonial / Eastern,Offensive,Away,Paris,Zinder,3945
+France,Wadai War,1906,1911,5,Won,Sultanate of Wadai,Chad,Colonial / Eastern,Offensive,Away,Paris,Abéché,4247
+France,French conquest of Morocco,1907,1912,5,Won,Morocco,Morocco,Colonial / Eastern,Offensive,Away,Paris,Fez,1757
+France,World War I,1914,1918,4,Won,Germany,Germany,European,Defensive,Home,Paris,Vienna,1033
+France,Franco-Turkish War in Cilicia,1919,1921,2,Lost,Turkey,Turkey,Colonial / Eastern,Defensive,Away,Paris,Ankara,2597
+France,Rif War,1925,1926,1,Won,Republic of the Rif,Morocco,Colonial / Eastern,Offensive,Away,Paris,Ajdir,1610
+France,Great Syrian Revolt,1925,1927,2,Won,Druze rebels,Syria,Colonial / Eastern,Defensive,Away,Paris,Damascus,3272
+France,Battle of France,1939,1940,1,Lost,Germany,Germany,European,Defensive,Home,Paris,Berlin,877
+France,Franco-Thai War,1940,1941,1,Lost,Thailand,Thailand,Colonial / Eastern,Defensive,Away,Paris,Bangkok,9442
+France,Indochina War,1946,1954,8,Lost,Việt Minh,Vietnam,Colonial / Eastern,Defensive,Away,Paris,Hanoi,9196
+France,Algerian War,1954,1962,8,Lost,FLN,Algeria,Colonial / Eastern,Defensive,Away,Paris,Algiers,1347
+France,Suez Crisis,1956,1956,1,Lost,Egypt,Egypt,Colonial / Eastern,Offensive,Away,Paris,Cairo,3210
+France,French Intervention in Chad,1968,1984,16,Won,Libya,Libya,Colonial / Eastern,Defensive,Away,Paris,Tripoli,1990
+England/UK,French Invasion of Normandy,1202,1204,2,Lost,France,France,European,Defensive,Away,London,Paris,343
+England/UK,Anglo-French War of 1213,1213,1214,1,Lost,France,France,European,Offensive,Away,London,Paris,343
+England/UK,First Barons' War,1215,1217,2,Won,France,France,European,Defensive,Home,London,Paris,343
+England/UK,Welsh Wars of Edward I,1277,1283,6,Won,Wales,United Kingdom,European,Offensive,Away,London,Caernarfon,335
+England/UK,First War of Scottish Independence,1296,1328,32,Lost,Scotland,United Kingdom,European,Offensive,Away,London,Edinburgh,533
+England/UK,Hundred Years' War,1337,1453,116,Lost,France,France,European,Offensive,Away,London,Paris,343
+England/UK,Battle of Flodden,1513,1513,1,Won,Scotland,United Kingdom,European,Defensive,Home,London,Edinburgh,533
+England/UK,Rough Wooing,1544,1551,7,Lost,Scotland,United Kingdom,European,Offensive,Away,London,Edinburgh,533
+England/UK,Anglo-Spanish War of 1585,1585,1604,19,Won,Spain,Spain,European,Defensive,Home,London,Madrid,1263
+England/UK,Anglo-Spanish War of 1625,1625,1630,5,Lost,Spain,Spain,European,Offensive,Away,London,Madrid,1263
+England/UK,Anglo-French War of 1627,1627,1629,2,Lost,France,France,European,Offensive,Away,London,Paris,343
+England/UK,Bishops' Wars,1639,1640,1,Lost,Scotland,United Kingdom,European,Offensive,Away,London,Edinburgh,533
+England/UK,Cromwell's Conquest of Ireland,1649,1653,4,Won,Irish Confederates,Ireland,European,Offensive,Away,London,Dublin,463
+England/UK,First Anglo-Dutch War,1652,1654,2,Won,Dutch Republic,Netherlands,European,Offensive,Away,London,The Hague,311
+England/UK,Anglo-Spanish War of 1654,1654,1660,6,Won,Spain,Spain,European,Offensive,Away,London,Madrid,1263
+England/UK,Second Anglo-Dutch War,1665,1667,2,Lost,Dutch Republic,Netherlands,European,Offensive,Away,London,The Hague,311
+England/UK,Third Anglo-Dutch War,1672,1674,2,Indecisive,Dutch Republic,Netherlands,European,Offensive,Away,London,The Hague,311
+England/UK,Nine Years' War,1688,1697,9,Indecisive,France,France,European,Defensive,Away,London,Paris,343
+England/UK,War of the Spanish Succession,1701,1714,13,Won,France,France,European,Offensive,Away,London,Paris,343
+England/UK,War of the Quadruple Alliance,1718,1720,2,Won,Spain,Spain,European,Offensive,Away,London,Madrid,1263
+England/UK,War of the Austrian Succession,1740,1748,8,Indecisive,France,France,European,Offensive,Away,London,Paris,343
+England/UK,Seven Years' War,1756,1763,7,Won,France,France,European,Offensive,Away,London,Paris,343
+England/UK,First Anglo-Mysore War,1767,1769,2,Indecisive,Kingdom of Mysore,India,Colonial / Eastern,Offensive,Away,London,Seringapatam,8019
+England/UK,First Anglo-Maratha War,1775,1782,7,Indecisive,Maratha Confederacy,India,Colonial / Eastern,Offensive,Away,London,Pune,7306
+England/UK,American Revolutionary War,1775,1783,8,Lost,United States,United States,European,Defensive,Away,London,Philadelphia,5700
+England/UK,Second Anglo-Mysore War,1780,1784,4,Indecisive,Kingdom of Mysore,India,Colonial / Eastern,Defensive,Away,London,Seringapatam,8019
+England/UK,Third Anglo-Mysore War,1790,1792,2,Won,Kingdom of Mysore,India,Colonial / Eastern,Offensive,Away,London,Seringapatam,8019
+England/UK,War of the First Coalition,1793,1797,4,Lost,France,France,European,Offensive,Away,London,Paris,343
+England/UK,War of the Second Coalition,1798,1802,4,Won,France,France,European,Offensive,Away,London,Paris,343
+England/UK,Fourth Anglo-Mysore War,1799,1799,1,Won,Kingdom of Mysore,India,Colonial / Eastern,Offensive,Away,London,Seringapatam,8019
+England/UK,Second Anglo-Maratha War,1803,1805,2,Won,Maratha Confederacy,India,Colonial / Eastern,Offensive,Away,London,Pune,7306
+England/UK,Caribbean Campaign,1803,1810,7,Won,France,France,European,Offensive,Away,London,Paris,343
+England/UK,War of the Third Coalition,1805,1805,1,Indecisive,France,France,European,Offensive,Away,London,Paris,343
+England/UK,Peninsular War,1808,1814,6,Won,France,France,European,Offensive,Away,London,Paris,343
+England/UK,War of 1812,1812,1815,3,Indecisive,United States,United States,European,Defensive,Away,London,Washington,5897
+England/UK,War of the Sixth Coalition,1813,1814,1,Won,France,France,European,Offensive,Away,London,Paris,343
+England/UK,Anglo-Nepalese War,1814,1816,2,Won,Kingdom of Nepal,Nepal,Colonial / Eastern,Offensive,Away,London,Kathmandu,7331
+England/UK,Waterloo Campaign,1815,1815,1,Won,France,France,European,Offensive,Away,London,Paris,343
+England/UK,Third Anglo-Maratha War,1817,1818,1,Won,Maratha Confederacy,India,Colonial / Eastern,Offensive,Away,London,Pune,7306
+England/UK,First Anglo-Burmese War,1824,1826,2,Won,Burma,Myanmar,Colonial / Eastern,Offensive,Away,London,Amarapura,8533
+England/UK,First Anglo-Ashanti War,1824,1831,7,Indecisive,Ashanti Empire,Ghana,Colonial / Eastern,Offensive,Away,London,Kumasi,4985
+England/UK,First Anglo-Afghan War,1839,1842,3,Lost,Afghanistan,Afghanistan,Colonial / Eastern,Offensive,Away,London,Kabul,5707
+England/UK,First Opium War,1839,1842,3,Won,China,China,Colonial / Eastern,Offensive,Away,London,Beijing,8140
+England/UK,First Anglo-Sikh War,1845,1846,1,Won,Sikh Empire,India,Colonial / Eastern,Defensive,Away,London,Lahore,6286
+England/UK,New Zealand Wars,1845,1872,27,Won,Māori tribes,New Zealand,Colonial / Eastern,Offensive,Away,London,Auckland,18335
+England/UK,Second Anglo-Sikh War,1848,1849,1,Won,Sikh Empire,India,Colonial / Eastern,Offensive,Away,London,Lahore,6286
+England/UK,Second Anglo-Burmese War,1852,1853,1,Won,Burma,Myanmar,Colonial / Eastern,Offensive,Away,London,Amarapura,8533
+England/UK,Crimean War,1853,1856,3,Won,Russia,Russia,European,Offensive,Away,London,St. Petersburg,2099
+England/UK,Second Opium War,1856,1860,4,Won,China,China,Colonial / Eastern,Offensive,Away,London,Beijing,8140
+England/UK,Indian Rebellion of 1857,1857,1858,1,Won,Indian rebels,India,Colonial / Eastern,Defensive,Away,London,Delhi,6713
+England/UK,Anglo-Abyssinian War,1868,1868,1,Won,Ethiopian Empire,Ethiopia,Colonial / Eastern,Offensive,Away,London,Gondar,5482
+England/UK,Third Anglo-Ashanti War,1873,1874,1,Won,Ashanti Empire,Ghana,Colonial / Eastern,Offensive,Away,London,Kumasi,4985
+England/UK,Anglo-Perak War,1875,1876,1,Won,Perak Sultanate,Malaysia,Colonial / Eastern,Offensive,Away,London,Kuala Kangsar,10351
+England/UK,Second Anglo-Afghan War,1878,1880,2,Won,Afghanistan,Afghanistan,Colonial / Eastern,Offensive,Away,London,Kabul,5707
+England/UK,Anglo-Zulu War,1879,1879,1,Won,Zulu Kingdom,South Africa,Colonial / Eastern,Offensive,Away,London,Ulundi,9396
+England/UK,First Boer War,1880,1881,1,Lost,South African Republic,South Africa,European,Offensive,Away,London,Pretoria,9026
+England/UK,Mahdist War,1881,1899,18,Won,Mahdist Sudan,Sudan,Colonial / Eastern,Offensive,Away,London,Omdurman,4923
+England/UK,Anglo-Egyptian War,1882,1882,1,Won,Egypt,Egypt,Colonial / Eastern,Offensive,Away,London,Cairo,3512
+England/UK,Fourth Anglo-Ashanti War,1895,1900,5,Won,Ashanti Empire,Ghana,Colonial / Eastern,Offensive,Away,London,Kumasi,4985
+England/UK,Second Boer War,1899,1902,3,Won,South African Republic,South Africa,European,Offensive,Away,London,Pretoria,9026
+England/UK,Boxer Rebellion,1900,1901,1,Won,China,China,Colonial / Eastern,Offensive,Away,London,Beijing,8140
+England/UK,World War I,1914,1918,4,Won,Germany,Germany,European,Defensive,Away,London,Vienna,1235
+England/UK,Third Anglo-Afghan War,1919,1919,1,Won,Afghanistan,Afghanistan,Colonial / Eastern,Defensive,Away,London,Kabul,5707
+England/UK,Irish War of Independence,1919,1921,2,Lost,Irish Republic,Ireland,European,Defensive,Home,London,Dublin,463
+England/UK,Iraqi Revolt,1920,1920,1,Won,Iraqi tribes,Iraq,Colonial / Eastern,Defensive,Away,London,Baghdad,4090
+England/UK,Arab Revolt in Palestine,1936,1939,3,Won,Palestinian Arab rebels,,Colonial / Eastern,Defensive,Away,London,Jerusalem,3611
+England/UK,World War II,1939,1945,6,Won,Germany,Germany,European,Defensive,Away,London,Berlin,931
+England/UK,Palestine Emergency,1945,1948,3,Lost,Jewish insurgents,Israel,Colonial / Eastern,Defensive,Away,London,Jerusalem,3611
+England/UK,Malayan Emergency,1948,1960,12,Won,Malayan Communist Party,Malaysia,Colonial / Eastern,Defensive,Away,London,Kuala Lumpur,10546
+England/UK,Mau Mau Uprising,1952,1960,8,Won,Mau Mau,Kenya,Colonial / Eastern,Defensive,Away,London,Nairobi,6820
+England/UK,Cyprus Emergency,1955,1959,4,Lost,EOKA,Cyprus,Colonial / Eastern,Defensive,Away,London,Nicosia,3218
+England/UK,Suez Crisis,1956,1956,1,Lost,Egypt,Egypt,Colonial / Eastern,Offensive,Away,London,Cairo,3512
+England/UK,Konfrontasi,1963,1966,3,Won,Indonesia,Indonesia,Colonial / Eastern,Defensive,Away,London,Jakarta,11718
+England/UK,Aden Emergency,1963,1967,4,Lost,NLF,Yemen,Colonial / Eastern,Defensive,Away,London,Aden,5898
+England/UK,Falklands War,1982,1982,1,Won,Argentina,Argentina,European,Defensive,Away,London,Buenos Aires,11127
+Spain,Fernando III's Reconquista,1212,1248,36,Won,Almohad Caliphate,Morocco,Colonial / Eastern,Offensive,Home,Toledo,Marrakesh,982
+Spain,War of the Sicilian Vespers,1282,1302,20,Won,France,France,European,Defensive,Away,Toledo,Paris,1120
+Spain,War of the Castilian Succession,1475,1479,4,Won,Portugal,Portugal,European,Defensive,Home,Valladolid,Paris,973
+Spain,Granada War,1482,1492,10,Won,Emirate of Granada,Spain,Colonial / Eastern,Offensive,Home,Valladolid,Granada,506
+Spain,First Italian War,1494,1498,4,Won,France,France,European,Defensive,Away,Valladolid,Paris,973
+Spain,Second Italian War,1499,1504,5,Won,France,France,European,Defensive,Away,Valladolid,Paris,973
+Spain,Conquest of Navarre,1512,1515,3,Won,Kingdom of Navarre,Spain,European,Offensive,Home,Valladolid,Paris,973
+Spain,Conquest of the Aztec Empire,1519,1521,2,Won,Aztec Empire,Mexico,Colonial / Eastern,Offensive,Away,Valladolid,Tenochtitlan,8939
+Spain,Italian War of 1521,1521,1526,5,Won,France,France,European,Offensive,Away,Valladolid,Paris,973
+Spain,Conquest of Yucatán,1524,1546,22,Won,Maya kingdoms,Mexico,Colonial / Eastern,Offensive,Away,Valladolid,Mérida,8067
+Spain,Conquest of Central America,1524,1548,24,Won,Maya kingdoms,Mexico,Colonial / Eastern,Offensive,Away,Valladolid,Mérida,8067
+Spain,Conquest of New Granada,1525,1540,15,Won,Muisca Confederation,Colombia,Colonial / Eastern,Offensive,Away,Valladolid,Bogotá,7951
+Spain,Spanish-Ottoman Wars,1529,1574,45,Indecisive,Ottoman Empire,Turkey,Colonial / Eastern,Offensive,Away,Valladolid,Constantinople,2796
+Spain,Conquest of the Inca Empire,1532,1572,40,Won,Inca Empire,Peru,Colonial / Eastern,Offensive,Away,Valladolid,Cusco,9205
+Spain,Italian War of 1536,1536,1538,2,Indecisive,France,France,European,Defensive,Away,Valladolid,Paris,973
+Spain,Italian War of 1542,1542,1546,4,Indecisive,France,France,European,Defensive,Away,Valladolid,Paris,973
+Spain,Schmalkaldic War,1546,1547,1,Won,Protestant League,Germany,European,Offensive,Away,Valladolid,Wittenberg,1736
+Spain,Arauco War,1550,1656,106,Indecisive,Mapuche,Chile,Colonial / Eastern,Offensive,Away,Valladolid,Arauco,11194
+Spain,Italian War of 1551,1551,1559,8,Won,France,France,European,Defensive,Away,Valladolid,Paris,973
+Spain,Conquest of the Philippines,1565,1571,6,Won,Sultanate of Sulu,Philippines,Colonial / Eastern,Offensive,Away,Madrid,Jolo,12371
+Spain,Eighty Years' War,1568,1648,80,Lost,Dutch Republic,Netherlands,European,Defensive,Away,Madrid,The Hague,1432
+Spain,Anglo-Spanish War of 1585,1585,1604,19,Lost,England,United Kingdom,European,Offensive,Away,Madrid,London,1263
+Spain,Thirty Years' War,1618,1648,30,Lost,France,France,European,Defensive,Away,Madrid,Paris,1052
+Spain,Anglo-Spanish War of 1625,1625,1630,5,Won,England,United Kingdom,European,Defensive,Away,Madrid,London,1263
+Spain,Franco-Spanish War,1635,1659,24,Lost,France,France,European,Defensive,Away,Madrid,Paris,1052
+Spain,Portuguese Restoration War,1640,1668,28,Lost,Portugal,Portugal,European,Offensive,Away,Madrid,Lisbon,503
+Spain,War of Devolution,1667,1668,1,Lost,France,France,European,Defensive,Away,Madrid,Paris,1052
+Spain,Franco-Dutch War,1672,1678,6,Lost,France,France,European,Defensive,Away,Madrid,Paris,1052
+Spain,War of the Reunions,1683,1684,1,Lost,France,France,European,Defensive,Away,Madrid,Paris,1052
+Spain,Nine Years' War,1688,1697,9,Indecisive,France,France,European,Offensive,Away,Madrid,Paris,1052
+Spain,War of the Spanish Succession,1701,1714,13,Indecisive,England,United Kingdom,European,Defensive,Home,Madrid,London,1263
+Spain,War of the Quadruple Alliance,1718,1720,2,Lost,France,France,European,Offensive,Away,Madrid,London,1263
+Spain,War of the Polish Succession,1733,1738,5,Won,Habsburg Austria,Austria,European,Offensive,Away,Madrid,Vienna,1808
+Spain,War of the Austrian Succession,1740,1748,8,Indecisive,Austria,Austria,European,Offensive,Away,Madrid,London,1263
+Spain,Seven Years' War,1762,1763,1,Lost,Great Britain,United Kingdom,European,Offensive,Away,Madrid,London,1263
+Spain,American Revolutionary War,1779,1783,4,Won,Britain,United Kingdom,European,Offensive,Away,Madrid,London,1263
+Spain,War of the Pyrenees,1793,1795,2,Lost,France,France,European,Defensive,Home,Madrid,Paris,1052
+Spain,Peninsular War,1808,1814,6,Won,France,France,European,Defensive,Home,Madrid,Paris,1052
+Spain,Río de la Plata War of Independence,1810,1818,8,Lost,Argentine rebels,Argentina,Colonial / Eastern,Defensive,Away,Madrid,Santiago,10702
+Spain,Mexican War of Independence,1810,1821,11,Lost,Mexican rebels,Mexico,Colonial / Eastern,Defensive,Away,Madrid,Mexico City,9062
+Spain,Venezuelan War of Independence,1810,1823,13,Lost,Gran Colombia,Colombia,Colonial / Eastern,Defensive,Away,Madrid,Bogotá,8011
+Spain,Peruvian War of Independence,1820,1826,6,Lost,Peru,Peru,Colonial / Eastern,Defensive,Away,Madrid,Lima,9509
+Spain,Spanish-Moroccan War,1859,1860,1,Won,Morocco,Morocco,Colonial / Eastern,Offensive,Away,Madrid,Fez,719
+Spain,Dominican Restoration War,1863,1865,2,Lost,Dominican Republic,Dominican Republic,Colonial / Eastern,Offensive,Away,Madrid,Santo Domingo,6693
+Spain,Chincha Islands War,1864,1866,2,Lost,Peru,Peru,European,Offensive,Away,Madrid,Lima,9509
+Spain,Ten Years' War in Cuba,1868,1878,10,Won,Cuban rebels,Cuba,Colonial / Eastern,Defensive,Away,Madrid,Havana,7440
+Spain,Cuban War of Independence,1895,1898,3,Lost,Cuban rebels,Cuba,Colonial / Eastern,Defensive,Away,Madrid,Havana,7440
+Spain,Philippine Revolution,1896,1898,2,Lost,Philippine rebels,Philippines,Colonial / Eastern,Defensive,Away,Madrid,Manila,11655
+Spain,Spanish-American War,1898,1898,1,Lost,United States,United States,European,Defensive,Away,Madrid,Washington,6088
+Spain,Rif War,1921,1927,6,Won,Rif Republic,Morocco,Colonial / Eastern,Offensive,Away,Madrid,Ajdir,588
+Spain,Ifni War,1957,1958,1,Won,Morocco,Morocco,Colonial / Eastern,Defensive,Away,Madrid,Rabat,763
+Denmark,Conquest of Estonia,1219,1227,8,Won,Estonian tribes,Estonia,Colonial / Eastern,Offensive,Away,Copenhagen,Tallinn,836
+Denmark,Danish-German War,1225,1227,2,Lost,Hanseatic League,Germany,European,Defensive,Home,Copenhagen,Kiel,216
+Denmark,First Dano-Hanseatic War,1361,1365,4,Won,Hanseatic League,Germany,European,Offensive,Away,Copenhagen,Lübeck,234
+Denmark,Great Hanseatic War,1367,1370,3,Lost,Hanseatic League,Germany,European,Defensive,Home,Copenhagen,Cologne,645
+Denmark,Dano-Swedish War of 1501,1501,1520,19,Won,Sweden,Sweden,European,Offensive,Away,Copenhagen,Stockholm,521
+Denmark,Swedish War of Liberation,1521,1523,2,Lost,Sweden,Sweden,European,Defensive,Away,Copenhagen,Stockholm,521
+Denmark,Conquest of Dithmarschen,1559,1559,1,Won,Dithmarschen,Germany,European,Offensive,Away,Copenhagen,Kiel,216
+Denmark,Northern Seven Years' War,1563,1570,7,Indecisive,Sweden,Sweden,European,Offensive,Away,Copenhagen,Stockholm,521
+Denmark,Kalmar War,1611,1613,2,Won,Sweden,Sweden,European,Offensive,Away,Copenhagen,Stockholm,521
+Denmark,Thirty Years' War,1625,1629,4,Lost,Habsburg Empire,Austria,European,Offensive,Away,Copenhagen,Vienna,870
+Denmark,Torstenson War,1643,1645,2,Lost,Sweden,Sweden,European,Defensive,Home,Copenhagen,Stockholm,521
+Denmark,Dano-Swedish War of 1657,1657,1658,1,Lost,Sweden,Sweden,European,Defensive,Home,Copenhagen,Stockholm,521
+Denmark,Dano-Swedish War of 1658,1658,1660,2,Won,Sweden,Sweden,European,Defensive,Home,Copenhagen,Stockholm,521
+Denmark,Scanian War,1675,1679,4,Indecisive,Sweden,Sweden,European,Offensive,Away,Copenhagen,Stockholm,521
+Denmark,Great Northern War,1700,1721,21,Won,Sweden,Sweden,European,Offensive,Away,Copenhagen,Stockholm,521
+Denmark,Dano-Algerian War,1770,1772,2,Lost,Regency of Algiers,Algeria,Colonial / Eastern,Offensive,Away,Copenhagen,Algiers,2223
+Denmark,Napoleonic Wars,1807,1814,7,Lost,United Kingdom,United Kingdom,European,Defensive,Home,Copenhagen,London,955
+Denmark,First Schleswig War,1848,1850,2,Won,Prussia,Germany,European,Defensive,Home,Copenhagen,Berlin,355
+Denmark,Second Schleswig War,1864,1864,1,Lost,Prussia,Germany,European,Defensive,Home,Copenhagen,Berlin,355
+Denmark,World War II,1940,1945,5,Lost,Germany,Germany,European,Defensive,Home,Copenhagen,Berlin,355
+Portugal,Portuguese Reconquista,1200,1249,49,Won,Almohad Caliphate,Morocco,Colonial / Eastern,Offensive,Home,Lisbon,Marrakesh,795
+Portugal,Luso-Castilian War,1336,1339,3,Indecisive,Crown of Castile,Spain,European,Defensive,Home,Lisbon,Valladolid,496
+Portugal,Battle of Aljubarrota,1383,1385,2,Won,Castile,Spain,European,Defensive,Home,Lisbon,Valladolid,496
+Portugal,Conquest of Ceuta,1415,1415,1,Won,Marinid Sultanate,Morocco,Colonial / Eastern,Offensive,Away,Lisbon,Fez,639
+Portugal,Portuguese Moroccan Campaigns,1458,1471,13,Won,Wattasid Morocco,Morocco,Colonial / Eastern,Offensive,Away,Lisbon,Fez,639
+Portugal,War of the Castilian Succession,1475,1479,4,Lost,Spain,Spain,European,Offensive,Away,Lisbon,Valladolid,496
+Portugal,Portuguese-Mamluk Naval War,1505,1517,12,Won,Mamluk Sultanate,Egypt,Colonial / Eastern,Offensive,Away,Lisbon,Cairo,3796
+Portugal,Capture of Hormuz,1507,1515,8,Won,Safavid Persia,Iran,Colonial / Eastern,Offensive,Away,Lisbon,Isfahan,5434
+Portugal,Conquest of Goa,1510,1510,1,Won,Bijapur Sultanate,India,Colonial / Eastern,Offensive,Away,Lisbon,Bijapur,8409
+Portugal,Capture of Malacca,1511,1511,1,Won,Malacca Sultanate,Malaysia,Colonial / Eastern,Offensive,Away,Lisbon,Malacca,11686
+Portugal,Ottoman-Portuguese Conflicts,1538,1559,21,Indecisive,Ottoman Empire,Turkey,Colonial / Eastern,Defensive,Away,Lisbon,Constantinople,3237
+Portugal,France Antarctique,1555,1567,12,Won,France,France,European,Defensive,Away,Lisbon,Paris,1453
+Portugal,Battle of Alcácer Quibir,1578,1578,1,Lost,Saadi Sultanate (Morocco),Morocco,Colonial / Eastern,Offensive,Away,Lisbon,Marrakesh,795
+Portugal,Dutch-Portuguese War,1598,1663,65,Indecisive,Dutch Republic,Netherlands,European,Defensive,Away,Lisbon,The Hague,1812
+Portugal,Fall of Hormuz,1602,1622,20,Lost,Safavid Persia,Iran,Colonial / Eastern,Defensive,Away,Lisbon,Isfahan,5434
+Portugal,Portuguese Restoration War,1640,1668,28,Won,Spain,Spain,European,Defensive,Home,Lisbon,Madrid,503
+Portugal,War of the Spanish Succession,1701,1714,13,Won,France,France,European,Offensive,Away,Lisbon,Paris,1453
+Portugal,Seven Years' War,1762,1763,1,Won,Spain,Spain,European,Defensive,Home,Lisbon,Madrid,503
+Portugal,War of the Oranges,1801,1801,1,Lost,France,France,European,Defensive,Home,Lisbon,Paris,1453
+Portugal,Peninsular War,1808,1814,6,Won,France,France,European,Defensive,Home,Lisbon,Paris,1453
+Portugal,Conquest of the Banda Oriental,1816,1820,4,Won,Banda Oriental,Uruguay,Colonial / Eastern,Offensive,Away,Lisbon,Montevideo,9505
+Portugal,Brazilian War of Independence,1822,1825,3,Lost,Brazil,Brazil,Colonial / Eastern,Defensive,Away,Lisbon,Rio de Janeiro,7715
+Portugal,Indian Annexation of Goa,1961,1961,1,Lost,India,India,Colonial / Eastern,Defensive,Away,Lisbon,New Delhi,7776
+Portugal,Angolan War of Independence,1961,1974,13,Lost,MPLA,Angola,Colonial / Eastern,Defensive,Away,Lisbon,Luanda,5772
+Portugal,Guinea-Bissau War of Independence,1963,1974,11,Lost,PAIGC,Guinea-Bissau,Colonial / Eastern,Defensive,Away,Lisbon,Bissau,3054
+Portugal,Mozambican War of Independence,1964,1974,10,Lost,FRELIMO,Mozambique,Colonial / Eastern,Defensive,Away,Lisbon,Maputo,8400
+Russia,Lithuanian-Muscovite War,1368,1372,4,Indecisive,Grand Duchy of Lithuania,Poland,European,Defensive,Home,Moscow,Vilnius,790
+Russia,Battle of Kulikovo,1380,1380,1,Won,Golden Horde,,Colonial / Eastern,Defensive,Home,Moscow,Sarai,954
+Russia,Great Stand on the Ugra River,1480,1480,1,Won,Golden Horde,,Colonial / Eastern,Defensive,Home,Moscow,Sarai,954
+Russia,Russian-Livonian War,1480,1481,1,Won,Livonian Confederation,Estonia,European,Offensive,Away,Moscow,Riga,841
+Russia,First Muscovite-Lithuanian War,1487,1494,7,Won,Grand Duchy of Lithuania,Poland,European,Offensive,Away,Moscow,Vilnius,790
+Russia,Russo-Swedish War of 1495,1495,1497,2,Indecisive,Sweden,Sweden,European,Offensive,Away,Moscow,Stockholm,1226
+Russia,Second Muscovite-Lithuanian War,1500,1503,3,Won,Grand Duchy of Lithuania,Poland,European,Offensive,Away,Moscow,Vilnius,790
+Russia,Fourth Muscovite-Lithuanian War,1512,1522,10,Won,Poland-Lithuania,Poland,European,Offensive,Away,Moscow,Vilnius,790
+Russia,Conquest of Kazan,1552,1552,1,Won,Khanate of Kazan,,Colonial / Eastern,Offensive,Away,Moscow,Kazan,717
+Russia,Conquest of Astrakhan,1556,1556,1,Won,Astrakhan Khanate,,Colonial / Eastern,Offensive,Away,Moscow,Sarai,954
+Russia,Livonian War,1558,1583,25,Lost,Poland-Lithuania,Poland,European,Offensive,Away,Moscow,Warsaw,1151
+Russia,Conquest of the Siberian Khanate,1580,1598,18,Won,Khanate of Sibir,,Colonial / Eastern,Offensive,Away,Moscow,Tobolsk,1859
+Russia,Polish Invasion of Russia,1605,1618,13,Lost,Poland-Lithuania,Poland,European,Defensive,Home,Moscow,Warsaw,1151
+Russia,Ingrian War,1610,1617,7,Lost,Sweden,Sweden,European,Defensive,Home,Moscow,Stockholm,1226
+Russia,Smolensk War,1632,1634,2,Lost,Poland-Lithuania,Poland,European,Offensive,Away,Moscow,Warsaw,1151
+Russia,First Northern War,1654,1667,13,Won,Poland-Lithuania,Poland,European,Offensive,Away,Moscow,Warsaw,1151
+Russia,Russo-Turkish War of 1676,1676,1681,5,Indecisive,Ottoman Empire,Turkey,Colonial / Eastern,Defensive,Home,Moscow,Constantinople,1756
+Russia,Great Turkish War,1686,1700,14,Won,Ottoman Empire,Turkey,Colonial / Eastern,Offensive,Away,Moscow,Constantinople,1756
+Russia,Great Northern War,1700,1721,21,Won,Sweden,Sweden,European,Offensive,Away,Moscow,Stockholm,1226
+Russia,Persian Expedition of Peter,1722,1723,1,Won,Safavid Persia,Iran,Colonial / Eastern,Offensive,Away,St. Petersburg,Isfahan,3414
+Russia,Russo-Turkish War of 1735,1735,1739,4,Won,Ottoman Empire,Turkey,Colonial / Eastern,Offensive,Away,St. Petersburg,Constantinople,2105
+Russia,Russo-Swedish War of 1741,1741,1743,2,Won,Sweden,Sweden,European,Defensive,Away,St. Petersburg,Stockholm,690
+Russia,Seven Years' War,1756,1762,6,Indecisive,Prussia,Germany,European,Offensive,Away,St. Petersburg,Berlin,1325
+Russia,Russo-Turkish War of 1768,1768,1774,6,Won,Ottoman Empire,Turkey,Colonial / Eastern,Defensive,Away,St. Petersburg,Constantinople,2105
+Russia,Russo-Turkish War of 1787,1787,1792,5,Won,Ottoman Empire,Turkey,Colonial / Eastern,Defensive,Away,St. Petersburg,Constantinople,2105
+Russia,Russo-Swedish War of 1788,1788,1790,2,Indecisive,Sweden,Sweden,European,Defensive,Home,St. Petersburg,Stockholm,690
+Russia,Russo-Persian War of 1804,1804,1813,9,Won,Qajar Persia,Iran,Colonial / Eastern,Offensive,Away,St. Petersburg,Tehran,3090
+Russia,War of the Third Coalition,1805,1805,1,Lost,France,France,European,Offensive,Away,St. Petersburg,Paris,2163
+Russia,War of the Fourth Coalition,1806,1807,1,Lost,France,France,European,Offensive,Away,St. Petersburg,Paris,2163
+Russia,Russo-Turkish War of 1806,1806,1812,6,Won,Ottoman Empire,Turkey,Colonial / Eastern,Offensive,Away,St. Petersburg,Constantinople,2105
+Russia,Finnish War,1808,1809,1,Won,Sweden,Sweden,European,Offensive,Away,St. Petersburg,Stockholm,690
+Russia,French Invasion of Russia,1812,1812,1,Won,France,France,European,Defensive,Home,St. Petersburg,Paris,2163
+Russia,War of the Sixth Coalition,1813,1814,1,Won,France,France,European,Offensive,Away,St. Petersburg,Paris,2163
+Russia,Caucasian War,1817,1864,47,Won,Caucasian Imamate,,Colonial / Eastern,Offensive,Away,St. Petersburg,Shamakhi,2491
+Russia,Russo-Persian War of 1826,1826,1828,2,Won,Qajar Persia,Iran,Colonial / Eastern,Offensive,Away,St. Petersburg,Tehran,3090
+Russia,Russo-Turkish War of 1828,1828,1829,1,Won,Ottoman Empire,Turkey,Colonial / Eastern,Offensive,Away,St. Petersburg,Constantinople,2105
+Russia,Hungarian Intervention,1849,1849,1,Won,Hungarian Revolutionaries,Hungary,European,Offensive,Away,St. Petersburg,Buda,1563
+Russia,Crimean War,1853,1856,3,Lost,France,France,European,Defensive,Home,St. Petersburg,Paris,2163
+Russia,Conquest of Kokand,1864,1876,12,Won,Khanate of Kokand,Uzbekistan,Colonial / Eastern,Offensive,Away,St. Petersburg,Qo'qon,3517
+Russia,Conquest of Bukhara,1865,1868,3,Won,Emirate of Bukhara,Uzbekistan,Colonial / Eastern,Offensive,Away,St. Petersburg,Bukhara,3252
+Russia,Khivan Campaign,1873,1873,1,Won,Khanate of Khiva,Uzbekistan,Colonial / Eastern,Offensive,Away,St. Petersburg,Khiva,2909
+Russia,Russo-Turkish War of 1877,1877,1878,1,Won,Ottoman Empire,Turkey,Colonial / Eastern,Offensive,Away,St. Petersburg,Constantinople,2105
+Russia,Russo-Japanese War,1904,1905,1,Lost,Japan,Japan,European,Offensive,Away,St. Petersburg,Tokyo,7594
+Russia,World War I,1914,1917,3,Lost,Germany,Germany,European,Defensive,Home,St. Petersburg,Berlin,1325
+Russia,Polish-Soviet War,1919,1921,2,Lost,Poland,Poland,European,Offensive,Away,Moscow,Warsaw,1151
+Russia,Soviet-Japanese Border Conflicts,1938,1939,1,Won,Japan,Japan,Colonial / Eastern,Defensive,Away,Moscow,Tokyo,7478
+Russia,Winter War,1939,1940,1,Indecisive,Finland,Finland,European,Offensive,Away,Moscow,Helsinki,892
+Russia,World War II,1941,1945,4,Won,Germany,Germany,European,Defensive,Home,Moscow,Berlin,1609
+Russia,Soviet-Japanese War,1945,1945,1,Won,Japan,Japan,Colonial / Eastern,Offensive,Away,Moscow,Tokyo,7478
+Russia,Invasion of Czechoslovakia,1968,1968,1,Won,Czechoslovakia,Czechoslovakia,European,Offensive,Away,Moscow,Prague,1667
+Russia,Soviet-Afghan War,1979,1989,10,Lost,Afghan Mujahideen,Afghanistan,Colonial / Eastern,Offensive,Away,Moscow,Kabul,3366
+Ottoman/Turkey,Battle of Bapheus,1302,1302,1,Won,Byzantine Empire,Turkey,European,Offensive,Away,Söğüt,Constantinople,148
+Ottoman/Turkey,Siege of Bursa,1317,1326,9,Won,Byzantine Empire,Turkey,European,Offensive,Away,Söğüt,Constantinople,148
+Ottoman/Turkey,Ottoman Conquest of the Balkans,1362,1389,27,Won,Serbia,Serbia,European,Offensive,Away,Bursa,Constantinople,92
+Ottoman/Turkey,Crusade of Nicopolis,1396,1396,1,Won,Hungary,Hungary,European,Defensive,Home,Edirne,Buda,878
+Ottoman/Turkey,Ottoman-Timurid War,1399,1402,3,Lost,Timurid Empire,,Colonial / Eastern,Defensive,Home,Edirne,Sarai,1643
+Ottoman/Turkey,Crusade of Varna,1443,1444,1,Won,Hungary,Hungary,European,Defensive,Home,Edirne,Buda,878
+Ottoman/Turkey,Fall of Constantinople,1453,1453,1,Won,Byzantine Empire,Turkey,European,Offensive,Away,Constantinople,Constantinople,0
+Ottoman/Turkey,First Ottoman-Venetian War,1463,1479,16,Won,Venice,Italy,European,Offensive,Away,Constantinople,Venice,1432
+Ottoman/Turkey,Ottoman-Safavid War of 1514,1514,1514,1,Won,Safavid Persia,Iran,Colonial / Eastern,Offensive,Away,Constantinople,Tabriz,1516
+Ottoman/Turkey,Ottoman-Mamluk War,1516,1517,1,Won,Mamluk Sultanate,Egypt,Colonial / Eastern,Offensive,Away,Constantinople,Cairo,1236
+Ottoman/Turkey,Siege of Belgrade,1521,1521,1,Won,Kingdom of Hungary,Hungary,European,Offensive,Away,Constantinople,Buda,1069
+Ottoman/Turkey,Siege of Rhodes,1522,1522,1,Won,Knights Hospitaller,,European,Offensive,Away,Constantinople,Rome,1374
+Ottoman/Turkey,Battle of Mohács,1526,1526,1,Won,Kingdom of Hungary,Hungary,European,Offensive,Away,Constantinople,Buda,1069
+Ottoman/Turkey,First Siege of Vienna,1529,1529,1,Lost,Habsburg Austria,Austria,European,Offensive,Away,Constantinople,Vienna,1276
+Ottoman/Turkey,Spanish-Ottoman Wars,1529,1574,45,Indecisive,Spain,Spain,European,Defensive,Home,Constantinople,Madrid,2738
+Ottoman/Turkey,Ottoman-Safavid War of 1532,1532,1555,23,Won,Safavid Persia,Iran,Colonial / Eastern,Offensive,Away,Constantinople,Tabriz,1516
+Ottoman/Turkey,Italian War of 1542,1542,1546,4,Indecisive,Spain,Spain,European,Offensive,Away,Constantinople,Madrid,2738
+Ottoman/Turkey,Great Siege of Malta,1565,1565,1,Lost,Spain,Spain,European,Offensive,Away,Constantinople,Madrid,2738
+Ottoman/Turkey,Fourth Ottoman-Venetian War,1570,1573,3,Won,Venice,Italy,European,Offensive,Away,Constantinople,Venice,1432
+Ottoman/Turkey,Ottoman-Safavid War of 1578,1578,1590,12,Won,Safavid Persia,Iran,Colonial / Eastern,Offensive,Away,Constantinople,Isfahan,2215
+Ottoman/Turkey,Long Turkish War,1593,1606,13,Indecisive,Habsburg Austria,Austria,European,Defensive,Home,Constantinople,Vienna,1276
+Ottoman/Turkey,Ottoman-Safavid War of 1603,1603,1618,15,Lost,Safavid Persia,Iran,Colonial / Eastern,Defensive,Away,Constantinople,Isfahan,2215
+Ottoman/Turkey,Polish-Ottoman War of 1620,1620,1621,1,Indecisive,Poland-Lithuania,Poland,European,Offensive,Away,Constantinople,Warsaw,1386
+Ottoman/Turkey,Ottoman-Safavid War of 1623,1623,1639,16,Won,Safavid Persia,Iran,Colonial / Eastern,Offensive,Away,Constantinople,Isfahan,2215
+Ottoman/Turkey,War of Candia,1645,1669,24,Won,Venice,Italy,European,Offensive,Away,Constantinople,Venice,1432
+Ottoman/Turkey,Austro-Turkish War of 1663,1663,1664,1,Won,Habsburg Austria,Austria,European,Offensive,Away,Constantinople,Vienna,1276
+Ottoman/Turkey,Polish-Ottoman War of 1672,1672,1676,4,Won,Poland-Lithuania,Poland,European,Offensive,Away,Constantinople,Warsaw,1386
+Ottoman/Turkey,Russo-Turkish War of 1676,1676,1681,5,Indecisive,Russia,Russia,European,Offensive,Away,Constantinople,Moscow,1756
+Ottoman/Turkey,Great Turkish War,1683,1699,16,Lost,Habsburg Austria,Austria,European,Offensive,Away,Constantinople,Vienna,1276
+Ottoman/Turkey,Russo-Turkish War of 1710,1710,1711,1,Won,Russia,Russia,European,Defensive,Home,Constantinople,Moscow,1756
+Ottoman/Turkey,Ottoman-Venetian War of 1714,1714,1718,4,Won,Venice,Italy,European,Offensive,Away,Constantinople,Venice,1432
+Ottoman/Turkey,Austro-Turkish War of 1716,1716,1718,2,Lost,Habsburg Austria,Austria,European,Defensive,Home,Constantinople,Vienna,1276
+Ottoman/Turkey,Ottoman-Safavid War of 1730,1730,1735,5,Lost,Afsharid Persia,Iran,Colonial / Eastern,Defensive,Home,Constantinople,Isfahan,2215
+Ottoman/Turkey,Russo-Turkish War of 1735,1735,1739,4,Indecisive,Russia,Russia,European,Defensive,Home,Constantinople,St. Petersburg,2105
+Ottoman/Turkey,Austro-Turkish War of 1737,1737,1739,2,Won,Habsburg Austria,Austria,European,Defensive,Home,Constantinople,Vienna,1276
+Ottoman/Turkey,Russo-Turkish War of 1768,1768,1774,6,Lost,Russia,Russia,European,Offensive,Away,Constantinople,St. Petersburg,2105
+Ottoman/Turkey,Russo-Turkish War of 1787,1787,1792,5,Lost,Russia,Russia,European,Defensive,Home,Constantinople,St. Petersburg,2105
+Ottoman/Turkey,French Invasion of Egypt,1798,1801,3,Won,France,France,European,Defensive,Home,Constantinople,Paris,2255
+Ottoman/Turkey,Russo-Turkish War of 1806,1806,1812,6,Lost,Russia,Russia,European,Defensive,Home,Constantinople,St. Petersburg,2105
+Ottoman/Turkey,Greek War of Independence,1821,1832,11,Lost,Greece,Greece,European,Defensive,Home,Constantinople,Athens,562
+Ottoman/Turkey,Russo-Turkish War of 1828,1828,1829,1,Lost,Russia,Russia,European,Defensive,Home,Constantinople,St. Petersburg,2105
+Ottoman/Turkey,Egyptian-Ottoman War of 1831,1831,1833,2,Lost,Egypt,Egypt,Colonial / Eastern,Defensive,Home,Constantinople,Cairo,1236
+Ottoman/Turkey,Egyptian-Ottoman War of 1839,1839,1841,2,Won,Egypt,Egypt,Colonial / Eastern,Offensive,Home,Constantinople,Cairo,1236
+Ottoman/Turkey,Crimean War,1853,1856,3,Won,Russia,Russia,European,Defensive,Home,Constantinople,St. Petersburg,2105
+Ottoman/Turkey,Russo-Turkish War of 1877,1877,1878,1,Lost,Russia,Russia,European,Defensive,Home,Constantinople,St. Petersburg,2105
+Ottoman/Turkey,Greco-Turkish War of 1897,1897,1897,1,Won,Greece,Greece,European,Defensive,Home,Constantinople,Athens,562
+Ottoman/Turkey,Italo-Turkish War,1911,1912,1,Lost,Italy,Italy,European,Defensive,Home,Constantinople,Rome,1374
+Ottoman/Turkey,First Balkan War,1912,1913,1,Lost,Greece,Greece,European,Defensive,Home,Constantinople,Athens,562
+Ottoman/Turkey,Second Balkan War,1913,1913,1,Won,Bulgaria,Bulgaria,European,Offensive,Away,Constantinople,Athens,562
+Ottoman/Turkey,World War I,1914,1918,4,Lost,United Kingdom,United Kingdom,European,Defensive,Home,Constantinople,London,2500
+Ottoman/Turkey,Turkish War of Independence,1919,1922,3,Won,Greece,Greece,European,Defensive,Home,Constantinople,Athens,562
+Ottoman/Turkey,Turkish Invasion of Cyprus,1974,1974,1,Won,Cyprus,Cyprus,European,Offensive,Away,Ankara,Nicosia,531
+Austria,Fifth Crusade,1217,1221,4,Lost,Ayyubid Sultanate,Egypt,Colonial / Eastern,Offensive,Away,Vienna,Cairo,2383
+Austria,Mongol Invasion of Europe,1241,1242,1,Won,Mongol Empire (Golden Horde),,Colonial / Eastern,Defensive,Home,Vienna,Sarai,2117
+Austria,Austrian-Hungarian War,1246,1254,8,Won,Kingdom of Hungary,Hungary,European,Defensive,Home,Vienna,Buda,214
+Austria,Habsburg-Přemyslid War,1278,1278,1,Won,Kingdom of Bohemia,Czech Republic,European,Defensive,Home,Vienna,Prague,250
+Austria,Battle of Morgarten,1315,1315,1,Lost,Swiss Confederacy,Switzerland,European,Offensive,Away,Vienna,Bern,683
+Austria,Battle of Sempach,1386,1386,1,Lost,Swiss Confederacy,Switzerland,European,Offensive,Away,Vienna,Bern,683
+Austria,Burgundian Wars,1474,1477,3,Won,Burgundian State,Belgium,European,Offensive,Away,Vienna,Dijon,851
+Austria,War of the Burgundian Succession,1477,1482,5,Lost,France,France,European,Defensive,Away,Vienna,Paris,1033
+Austria,Austrian-Hungarian War of 1477,1477,1488,11,Lost,Kingdom of Hungary,Hungary,European,Defensive,Home,Vienna,Buda,214
+Austria,Austrian-Hungarian War of 1490,1490,1491,1,Won,Kingdom of Hungary,Hungary,European,Offensive,Away,Vienna,Buda,214
+Austria,Swabian War,1499,1499,1,Lost,Swiss Confederacy,Switzerland,European,Offensive,Away,Vienna,Bern,683
+Austria,Ottoman-Habsburg War of 1526,1526,1533,7,Lost,Ottoman Empire,Turkey,Colonial / Eastern,Defensive,Home,Vienna,Constantinople,1276
+Austria,Ottoman-Habsburg War of 1536,1536,1547,11,Lost,Ottoman Empire,Turkey,Colonial / Eastern,Defensive,Home,Vienna,Constantinople,1276
+Austria,Ottoman-Habsburg War of 1551,1551,1562,11,Lost,Ottoman Empire,Turkey,Colonial / Eastern,Defensive,Home,Vienna,Constantinople,1276
+Austria,Ottoman-Habsburg War of 1566,1566,1568,2,Lost,Ottoman Empire,Turkey,Colonial / Eastern,Defensive,Home,Vienna,Constantinople,1276
+Austria,Long Turkish War,1593,1606,13,Indecisive,Ottoman Empire,Turkey,Colonial / Eastern,Offensive,Away,Vienna,Constantinople,1276
+Austria,Thirty Years' War,1618,1648,30,Indecisive,Sweden,Sweden,European,Defensive,Home,Vienna,Stockholm,1241
+Austria,Austro-Turkish War of 1663,1663,1664,1,Won,Ottoman Empire,Turkey,Colonial / Eastern,Defensive,Home,Vienna,Constantinople,1276
+Austria,Franco-Dutch War,1673,1679,6,Lost,France,France,European,Offensive,Away,Vienna,Paris,1033
+Austria,War of the Reunions,1683,1684,1,Lost,France,France,European,Defensive,Home,Vienna,Paris,1033
+Austria,Great Turkish War,1683,1699,16,Won,Ottoman Empire,Turkey,Colonial / Eastern,Defensive,Home,Vienna,Constantinople,1276
+Austria,Nine Years' War,1688,1697,9,Indecisive,France,France,European,Offensive,Away,Vienna,Paris,1033
+Austria,War of the Spanish Succession,1701,1714,13,Won,France,France,European,Offensive,Away,Vienna,Paris,1033
+Austria,Austro-Turkish War of 1716,1716,1718,2,Won,Ottoman Empire,Turkey,Colonial / Eastern,Offensive,Away,Vienna,Constantinople,1276
+Austria,War of the Quadruple Alliance,1718,1720,2,Won,Spain,Spain,European,Offensive,Away,Vienna,Madrid,1808
+Austria,War of the Polish Succession,1733,1735,2,Won,France,France,European,Offensive,Away,Vienna,Paris,1033
+Austria,Austro-Turkish War of 1737,1737,1739,2,Lost,Ottoman Empire,Turkey,Colonial / Eastern,Offensive,Away,Vienna,Constantinople,1276
+Austria,War of the Austrian Succession,1740,1748,8,Won,Prussia,Germany,European,Defensive,Home,Vienna,Berlin,523
+Austria,Seven Years' War,1756,1763,7,Indecisive,Prussia,Germany,European,Offensive,Away,Vienna,Berlin,523
+Austria,Austro-Turkish War of 1788,1788,1791,3,Won,Ottoman Empire,Turkey,Colonial / Eastern,Offensive,Away,Vienna,Constantinople,1276
+Austria,War of the First Coalition,1792,1797,5,Lost,France,France,European,Offensive,Away,Vienna,Paris,1033
+Austria,War of the Second Coalition,1799,1801,2,Lost,France,France,European,Offensive,Away,Vienna,Paris,1033
+Austria,War of the Third Coalition,1805,1805,1,Lost,France,France,European,Offensive,Away,Vienna,Paris,1033
+Austria,War of the Fifth Coalition,1809,1809,1,Lost,France,France,European,Offensive,Away,Vienna,Paris,1033
+Austria,War of the Sixth Coalition,1813,1814,1,Won,France,France,European,Offensive,Away,Vienna,Paris,1033
+Austria,War of the Seventh Coalition,1815,1815,1,Won,France,France,European,Offensive,Away,Vienna,Paris,1033
+Austria,First Italian War of Independence,1848,1849,1,Won,Kingdom of Sardinia,Italy,European,Defensive,Away,Vienna,Turin,748
+Austria,Second Italian War of Independence,1859,1859,1,Lost,France,France,European,Defensive,Away,Vienna,Paris,1033
+Austria,Second Schleswig War,1864,1864,1,Won,Denmark,Denmark,European,Offensive,Away,Vienna,Copenhagen,870
+Austria,Austro-Prussian War,1866,1866,1,Lost,Prussia,Germany,European,Defensive,Home,Vienna,Berlin,523
+Austria,Occupation of Bosnia-Herzegovina,1878,1878,1,Won,Bosnian resistance,Bosnia and Herzegovina,Colonial / Eastern,Offensive,Away,Vienna,Sarajevo,508
+Austria,World War I,1914,1918,4,Lost,Russia,Russia,European,Offensive,Away,Vienna,Belgrade,492
+Austria,World War II (Anschluss),1938,1945,7,Lost,Germany,Germany,European,Defensive,Home,Vienna,Berlin,523

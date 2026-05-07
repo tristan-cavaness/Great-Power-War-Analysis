@@ -1,0 +1,5 @@
+posture,enemy_type,won,total,win_rate
+Offensive,European,83,131,0.634
+Offensive,Colonial / Eastern,84,100,0.84
+Defensive,European,44,88,0.5
+Defensive,Colonial / Eastern,21,48,0.438

@@ -1,139 +1,184 @@
-# A Macro-Level Analysis of Great Power Wars, 1200–1985
+# Great Power War Analysis, 1200–1985
 
 ## Overview
 
-This project examines roughly 800 years of military force projection by three European great powers — **France**, **England/United Kingdom**, and **Spain** — to identify patterns in when and why great powers go to war, and what material and strategic conditions predict the outcomes of those conflicts.
+This project analyzes 411 wars fought by eight great powers — France, England/UK, Spain, Portugal, Denmark, Russia, Ottoman Empire/Turkey, and Austria — over roughly 800 years to identify what socio-economic conditions best predict war outcomes.
 
-The analysis operates at the macro-strategic level rather than the tactical. It does not measure battlefield performance or individual engagements. Instead, it asks: given the economic, demographic, territorial, and geographic conditions at the start of a conflict, can we predict whether a great power's use of force will succeed?
+## At a Glance
 
-The contemporary relevance is direct. Russia's invasion of Ukraine, the United States' strikes on Iran and intervention in Venezuela, operations against Hezbollah and Hamas, and ongoing tensions over Taiwan all represent great powers projecting military force under varying conditions of advantage and constraint. This analysis asks whether 800 years of history offer identifiable patterns for when such actions succeed or fail.
+Some highlights from 800 years of data:
+
+**Russia wins the most.** With a 76% win rate across 45 decisive wars, Russia has the best track record of any European great power. But France has fought nearly twice as many wars (86 decisive) — making it everyone else's most common enemy. France is the #1 opponent for England, Spain, and Austria. Russia and the Ottoman Empire have their own mutual rivalry spanning 8–9 wars over five centuries.
+
+**Spain holds the longest win streak** at 16 consecutive victories — almost certainly driven by its colonial conquests in the Americas. France comes in second at 13, England at 12. Austria's best streak is just 5 wins, which partly explains its 46% win rate — the lowest among the eight powers along with Denmark at 44%.
+
+**The 20th century broke everything.** Win rates dropped to 49% — essentially a coin flip. The era of reliable colonial conquest was over, and peer-level conflicts between industrialized powers are much less predictable.
+
+**War duration barely affects the outcome.** Whether a war lasts 1 year or 25, the aggressor's win rate stays between 56% and 67%. Only wars lasting over 50 years show a dramatic drop (33%), but there are only 3 of those in the dataset.
+
+**Offense dominates — but only against weaker opponents.** Offensive wars against colonial/eastern opponents win 84% of the time. Defensive wars against those same opponents? Just 44%. Against European peers, the offensive advantage narrows to 63% vs 50% and is not statistically significant.
+
+**The France–Spain rivalry** is the most fought matchup in the dataset: 16 wars from the English side against France, 16 from Spain against France, and 15 from the French side against Spain. Europe's western triangle was locked in near-permanent conflict for centuries.
 
 ## Data Sources
 
-This analysis draws on several established academic datasets, supplemented by manually compiled war-level data:
+| Source | File | Variables |
+| --- | --- | --- |
+| [Maddison Project Database 2023](https://www.rug.nl/ggdc/historicaldevelopment/maddison/) | `data/mpd2023_web.xlsx` | GDP per capita (2011$), population |
+| [OWID / HYDE 3.3](https://ourworldindata.org/urbanization) | `data/urbanization-vs-gdp.csv` | Urban population share (%) |
+| [OWID / HYDE 3.3](https://ourworldindata.org/grapher/land-use-over-the-long-term) | `data/land-use-over-the-long-term.csv` | Built-up area, cropland, grazing land (hectares) |
+| [OWID / HYDE 3.3](https://ourworldindata.org/grapher/urban-and-rural-population-stacked) | `data/urban-and-rural-population-stacked.csv` | Urban and rural population counts |
+| Manually compiled from Wikipedia | `data/Great-Power-Wars-Dataset.xlsx` | War records, outcomes, opponents, posture |
 
-| Source | Variables | Coverage |
-|--------|-----------|----------|
-| [Maddison Project Database](https://www.rug.nl/ggdc/historicaldevelopment/maddison/) | GDP per capita, population | ~1200–present |
-| [Cliopatria (Seshat Global History Databank)](https://github.com/Seshat-Global-History-Databank/cliopatria) | Polity land area in km² | 3400 BCE–2024 CE |
-| [Correlates of War — National Material Capabilities](https://correlatesofwar.org/data-sets/) | CINC scores (military expenditure, personnel, energy, steel, population) | 1816–present |
-| Wikipedia — Lists of wars involving each power | War names, dates, belligerents, outcomes, theaters | Manual compilation |
+- Source Lists
+Wars involving France
+Wars involving England / United Kingdom
+Wars involving Spain
+Wars involving Denmark
+Wars involving Portugal
+Wars involving Russia
+Wars involving the Ottoman Empire / Turkey
+Wars involving Austria
 
-### A Note on the War Data
 
-The war-level records (names, dates, opponents, theaters, posture, outcomes) were compiled manually from Wikipedia's "List of wars involving France / England / Spain" pages, with AI assistance for cleaning and standardization. Records were cross-referenced with COW war data where available (post-1816). See **Inclusion and Exclusion Criteria** below for the rules governing which conflicts were included.
+- Maddison Project Database 2023
 
-### Computed Variables
+Used for:
 
-The following variables are derived from the source data rather than collected directly:
+GDP per capita (Constant 2011 international dollars)
+Total GDP (Constant 2011 international dollars)
+Population estimates
 
-- **GDP ratio** — Power's total GDP divided by opponent's total GDP (GDP per capita × population for each side)
-- **Population ratio** — Power's population divided by opponent's population
-- **CINC ratio** — Power's CINC score divided by opponent's (post-1816 only)
-- **Land area ratio** — Power's territorial area divided by opponent's area, from Cliopatria
-- **Near-peer binary** — 1 if GDP ratio falls between 0.5 and 2.0, else 0
-- **Capital-to-capital distance** — Computed via haversine formula using historical capital coordinates
-- **Currency hegemon binary** — 1 if the power controlled the dominant world currency at the time of the war, coded from standard historical periodization: Portugal (1450–1530), Spain (1530–1640), Netherlands (1640–1720), France (1720–1815), Great Britain (1815–1920), United States (1921–present)
+Citation:
 
-## Inclusion and Exclusion Criteria
+Bolt, Jutta and Jan Luiten van Zanden (2024), �Maddison style estimates of the evolution of the world economy: A new 2023 update�, Journal of Economic Surveys.
 
-### Included
 
-A conflict is included if it meets **all** of the following:
+- HYDE 3.3 / Our World in Data
 
-1. **External conflict.** The war is directed against a foreign opponent — another state, kingdom, empire, or organized external entity. Internal civil wars and domestic rebellions are excluded.
-2. **Significant military contributor.** The great power contributed roughly a quarter or more of the total allied or coalition fighting force. Minor or token contributions to multinational coalitions are excluded, even if the power was formally a belligerent.
-3. **Organized military resistance.** The opponent fielded an organized armed force capable of and willing to resist — whether a standing army, tribal military confederation, guerrilla force, or naval fleet.
-4. **Deployment of organized military force.** The great power deployed regular military forces with the intent or willingness to engage in combat, including cases where the opponent capitulated before significant fighting occurred.
+Used for:
 
-### Excluded
+Urban population
+Rural population
+Urbanization rate
+Built-up area
+Cropland
+Grazing land
 
-- Purely internal conflicts (civil wars, domestic rebellions without a foreign primary enemy)
-- Token coalition participation where the power contributed less than roughly a quarter of the total fighting force
-- Naval blockades or diplomatic coercion without combat-ready deployment
+Citation:
 
-### Borderline Guidance
+Klein Goldewijk, K., Beusen, A., Doelman, J., and Stehfest, E. (2017), �Anthropogenic land use estimates for the Holocene � HYDE 3.2�, Earth System Science Data, 9, 927�953.
 
-- **Brief wars and single decisive engagements:** included. Duration does not determine strategic significance.
-- **Gunboat diplomacy with territorial acquisition:** included. Asymmetric outcomes are data, not noise.
-- **Opponent capitulated before major combat:** included. The capitulation is the outcome.
-- **Colonial conquest against organized non-state opponents:** included if organized resistance was present.
-- **Deployment with intent to fight, even if combat was minimal or the opponent withdrew:** included. The deployment and willingness to engage meets the threshold.
+Utrecht University / PBL Netherlands Environmental Assessment Agency � History Database of the Global Environment (HYDE v3.3, 2023).
 
-## Variables
+Processed and distributed through Our World in Data.
 
-Each observation (war) includes the following:
 
-| Variable | Description | Source |
-|----------|-------------|--------|
-| War name | Name of the conflict | Wikipedia / manual |
-| Start year, end year | Temporal bounds | Wikipedia / manual |
-| Duration | Length in years | Computed |
-| War outcome | Won, Lost, or Indecisive (from the power's perspective) | Wikipedia / manual |
-| Primary enemy | Main opponent | Wikipedia / manual |
-| Enemy type | European or Colonial/Eastern | Manual |
-| Geographic theater | Region of conflict (e.g., Iberian Peninsula, South Asia) | Manual |
-| Posture | Offensive or Defensive | Manual |
-| Home / Away | Whether fought in or near the power's homeland | Manual |
-| GDP per capita (both sides) | In 2011 US dollars (PPP) | Maddison Project Database 2023 |
-| Population (both sides) | Estimated population | Maddison |
-| CINC (both sides) | Composite Index of National Capability (post-1816) | COW |
-| GDP ratio | Power total GDP / Opponent total GDP | Computed |
-| Population ratio | Power / Opponent | Computed |
-| CINC ratio | Power / Opponent (post-1816) | Computed |
-| Land area ratio | Power area / Opponent area in km² | Cliopatria |
-| Near-peer binary | 1 if GDP ratio 0.5–2.0, else 0 | Computed |
-| Capital-to-capital distance | Kilometers between historical capitals | Computed (haversine) |
-| Currency hegemon binary | 1 if power held dominant currency | Manual (historical consensus) |
+The war dataset includes an "Enemy Modern Equivalent" column mapping each historical opponent to its modern country name for lookup against Maddison and OWID. Of 411 wars, 399 map to a modern state. The 12 unmatchable entries are Mongol/Tatar successor states, the Caucasian Imamate, Tahiti, the Iroquois Confederacy, Palestinian Arab rebels, and Knights Hospitalier.
+
+## Why Log Transforms?
+
+All ratio variables (GDP per capita ratio, population ratio, built-up area ratio, etc.) are log-transformed before regression. This matters for three reasons:
+
+1. **Symmetry.** A raw ratio of 2.0 (twice as rich) and 0.5 (half as rich) represent the same magnitude of difference in opposite directions, but on a linear scale they are not symmetric around 1. Log transformation fixes this: log(2.0) = +0.69 and log(0.5) = -0.69 are perfectly symmetric around zero.
+
+2. **Skew compression.** Ratio variables are heavily right-skewed. A colonial power might have a GDP/cap ratio of 15x against a pre-industrial opponent, while European peer wars cluster around 0.5–2.0x. Without log transformation, the regression would be dominated by a few extreme colonial ratios. Log transformation compresses the extremes to get similar weight going from 1x to 2x and 3x and 6x.
+
+3. **Proportional interpretation.** With log-transformed ratios, the regression coefficient measures the effect of a proportional change in advantage (e.g. doubling your GDP/cap ratio) rather than an absolute change (e.g. adding $500 to your GDP/cap advantage). This makes more sense for comparing wars across 800 years where absolute values change dramatically but proportional advantages does not. 
+
+## Inclusion Criteria
+
+A conflict is included if it involves an external opponent, the great power contributed a significant share of the fighting force, the opponent fielded organized resistance, and regular military forces were deployed.
 
 ## Scripts
 
-Scripts should be run in the order listed below.
+Run in order from the repo root directory.
 
 | Script | Description |
-|--------|-------------|
-| `01_clean_war_data.py` | Loads the raw war dataset from Excel. Filters to the 1200–1985 window. Standardizes column names and categorical variables. |
-| `02_add_computed_variables.py` | Computes GDP ratio, population ratio, CINC ratio, land area ratio, near-peer binary, currency hegemon binary, and capital-to-capital distance. Merges Cliopatria and Maddison data. |
-| `03_exploratory_analysis.py` | Generates descriptive statistics and summary tables: win rates by power, century, theater, posture, GDP ratio bin, etc. |
-| `04_model.py` | Runs logistic regression predicting war outcome (win/loss) from material and strategic variables. Tests for nonlinear effects (e.g., diminishing returns of GDP advantage). Outputs regression tables. |
-| `05_visualize.py` | Generates all figures: war timeline by power and outcome, GDP ratio vs. win rate scatter with fitted curve, win rate heatmap by century and power, near-peer vs. asymmetric outcome comparison, and others. |
+| --- | --- |
+| `01_clean_war_list.py` | Loads the Excel war dataset and combines all 8 sheets into a single CSV |
+| `02_merge_data.py` | Merges war list with Maddison GDP/population and OWID urbanization/land use data for both self and opponent, interpolating between benchmark years. Computes all ratios and derived variables |
+| `03_exploratory_analysis.py` | Win rate tables by power, posture, enemy type, and GDP ratio bins |
+| `04_regression.py` | Logistic regression predicting war outcomes using sklearn and scipy |
+| `05_visualize.py` | Generates all figures |
 
-## Output
+### Setup
 
-All figures and tables are saved to the `outputs/` folder, including:
+```
+pip install -r requirements.txt
+python scripts/01_clean_war_list.py
+python scripts/02_merge_data.py
+python scripts/03_exploratory_analysis.py
+python scripts/04_regression.py
+python scripts/05_visualize.py
+```
 
-- Win rate by GDP ratio bin (scatter plot with fitted curve)
-- Win rate heatmap by century and power
-- Timeline of all wars, color-coded by outcome
-- Offensive vs. defensive win rates by power asymmetry
-- Near-peer vs. asymmetric outcome comparison
-- Logistic regression results table
-- Summary statistics (CSV)
+## Data Coverage
 
-## Preliminary Findings
+| Variable | Self | Opponent |
+| --- | --- | --- |
+| GDP per capita | 375/411 (91%) | 379/411 (92%) |
+| Urban pop % | 411/411 (100%) | 397/411 (97%) |
+| Built-up area | 411/411 (100%) | 397/411 (97%) |
+| Grazing/Cropland | 411/411 (100%) | 397/411 (97%) |
+| Urban/Rural pop | 411/411 (100%) | 397/411 (97%) |
 
-*Analysis in progress — preliminary findings to be presented the week of April 21.*
+Missing Maddison data is interpolated between benchmark years and backfilled up to 250 years from the earliest available estimate. GDP/cap gaps are primarily for Austria and Denmark before ~1820 and for the 12 unmatchable opponent entities.
+
+## Results
+
+### Individual Predictor Screening (α = 0.10)
+
+| Variable | Coefficient | p-value | R² |
+| --- | --- | --- | --- |
+| Offensive posture | +1.05 | < 0.001 | 0.045 |
+| Total GDP ratio (log) | +0.19 | 0.002 | 0.024 |
+| Population ratio (log) | +0.20 | 0.002 | 0.021 |
+| Urban population ratio (log) | +0.14 | 0.003 | 0.020 |
+| Built-up area ratio (log) | +0.12 | 0.011 | 0.014 |
+| Grazing land ratio (log) | +0.13 | 0.024 | 0.012 |
+| Urban % ratio (log) | +0.17 | 0.026 | 0.011 |
+| Home advantage | -0.59 | 0.022 | 0.011 |
+| GDP per capita ratio (log) | +0.24 | 0.087 | 0.007 |
+| Cropland ratio (log) | +0.09 | 0.090 | 0.006 |
+
+Distance was not statistically ignificant.
+
+### Core Model
+
+The three-variable model (offensive posture + GDP/cap ratio + home advantage) explains 4.4% of variance (pseudo R-squared). Offensive posture is the dominant predictor (+25 percentage points, p < 0.001). Adding population ratio improves the model significantly (ΔR² = 0.015, p = 0.013).
+
+### Colonial vs European Wars
+
+Colonial wars: R² = 12.6%, with offensive posture highly significant (p < 0.001), signaling the innate advantage in attacking a distant weaker power in a war of choice. European wars: R² = 1.7%, with no variable reaching significance. In peer conflicts, macro socio-economic advantages explain almost nothing — strategy, diplomacy, alliances, and battlefield tactics carry the most weight.
+
+### Home Advantage Confound
+
+Home advantage is negative when tested alone (p = 0.022) but positive in the combined model. Colonial wars — which have high win rates — are almost always fought away from home, creating a confound that reverses once you control for offensive posture.
 
 ## Limitations
 
-- GDP and population estimates before ~1500 are rough approximations based on limited historical evidence. Results for the earliest centuries should be interpreted with caution.
-- CINC data is only available from 1816, limiting the full model to modern-era wars.
-- War outcomes are coded as discrete categories (Won, Lost, Indecisive), which may oversimplify conflicts with ambiguous results.
-- The dataset covers three powers only. Findings may not generalize to other great powers (Ottoman Empire, Russia, China, etc.), though the framework is designed to be extensible.
-- Theater, posture, and home/away classifications involve judgment calls for wars fought across multiple fronts.
-- The war data was compiled from Wikipedia and may contain errors or omissions; where possible, records were cross-referenced with COW data for the post-1816 period.
+- GDP and population estimates before ~1820 rely on backfill from the earliest Maddison data point for Austria and Denmark
+- 12 opponent entities have no modern country equivalent and are excluded from the analysis, most others were assigned a logical modern day equivalent entity for data analysis purposes
+- Coalition wars are attributed to the primary belligerent, which may understate aggregate opposition
+- War outcomes are coded as discrete categories which may oversimplify often ambiguous results
+- The model explains 4.4% of variance — most of what determines war outcomes is not easily estimated by macro-level physical advantages
+- War data was compiled from Wikipedia and may contain computing and data entry errors
 
-## Reproducibility
+## Requirements
 
-To reproduce the analysis:
-
-1. Clone this repository.
-2. Install dependencies: `pip install -r requirements.txt`
-3. Download the Maddison Project Database and Cliopatria GeoJSON (instructions in `data/README.md`).
-4. Run scripts in order (`01` through `05`).
+```
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+scipy
+openpyxl
+```
 
 ## Author
 
 Tristan Cavaness
 Maxwell School of Citizenship and Public Affairs, Syracuse University
-PAI 789 — Advanced Policy Analysis, Spring 2026
+May 2026

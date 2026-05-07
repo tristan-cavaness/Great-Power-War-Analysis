@@ -1,8 +1,7 @@
 pandas
 numpy
-geopandas
 matplotlib
 seaborn
-statsmodels
 scikit-learn
+scipy
 openpyxl

@@ -1,0 +1,44 @@
+INDIVIDUAL PREDICTOR SCREENING
+
+  GDP/cap ratio (log): coef=0.2434, p=0.0866 *, R2=0.0072, n=316
+  Total GDP ratio (log): coef=0.1918, p=0.0021 **, R2=0.0243, n=312
+  Population ratio (log): coef=0.1992, p=0.0024 **, R2=0.0211, n=340
+  Offensive posture: coef=1.0476, p=0.0 ***, R2=0.0454, n=367
+  Home advantage: coef=-0.5946, p=0.022 *, R2=0.0108, n=367
+  Distance (log): coef=0.0289, p=0.7606 , R2=0.0002, n=367
+  Urban % ratio (log): coef=0.171, p=0.0258 *, R2=0.011, n=354
+  Built-up area ratio (log): coef=0.1232, p=0.0108 *, R2=0.0143, n=354
+  Grazing land ratio (log): coef=0.1346, p=0.0244 *, R2=0.0115, n=344
+  Cropland ratio (log): coef=0.0941, p=0.0901 *, R2=0.0062, n=354
+  Urban pop ratio (log): coef=0.1432, p=0.0026 **, R2=0.0202, n=354
+
+CORE MODEL: Offensive + GDP/cap + Home
+
+N = 316, R2 = 0.0437
+
+  is_offensive: coef=1.0806, se=0.2975, p=0.0003 ***
+  log_gdp_cap_ratio: coef=0.2431, se=0.15, p=0.1051 
+  is_home: coef=0.358, se=0.3718, p=0.3356 
+
+Marginal effects at mean:
+  is_offensive: 0.251 (25.1%)
+  log_gdp_cap_ratio: 0.0565 (5.6%)
+  is_home: 0.0831 (8.3%)
+
+ADDING POPULATION RATIO
+  Core R2: 0.0437
+  +Pop R2: 0.0582
+  Delta:   0.0145
+  Pop p:   0.0127
+
+COLONIAL vs EUROPEAN
+
+  Colonial (n=125, R2=0.1262)
+    is_offensive: coef=1.8509, p=0.0 ***
+    log_gdp_cap_ratio: coef=-0.0309, p=0.9012 
+    is_home: coef=0.5175, p=0.5957 
+
+  European (n=191, R2=0.0171)
+    is_offensive: coef=0.3067, p=0.4795 
+    log_gdp_cap_ratio: coef=0.4326, p=0.1343 
+    is_home: coef=-0.0693, p=0.8829 

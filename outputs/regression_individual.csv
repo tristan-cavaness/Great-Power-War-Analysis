@@ -1,0 +1,12 @@
+variable,description,coef,p_value,r2,n
+log_gdp_cap_ratio,GDP/cap ratio (log),0.2434,0.0866,0.0072,316
+log_total_gdp_ratio,Total GDP ratio (log),0.1918,0.0021,0.0243,312
+log_pop_ratio,Population ratio (log),0.1992,0.0024,0.0211,340
+is_offensive,Offensive posture,1.0476,0.0,0.0454,367
+is_home,Home advantage,-0.5946,0.022,0.0108,367
+log_distance,Distance (log),0.0289,0.7606,0.0002,367
+log_urban_pct_ratio,Urban % ratio (log),0.171,0.0258,0.011,354
+log_builtup_ratio,Built-up area ratio (log),0.1232,0.0108,0.0143,354
+log_grazing_ratio,Grazing land ratio (log),0.1346,0.0244,0.0115,344
+log_cropland_ratio,Cropland ratio (log),0.0941,0.0901,0.0062,354
+log_urban_pop_ratio,Urban pop ratio (log),0.1432,0.0026,0.0202,354
